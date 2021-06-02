@@ -18,6 +18,7 @@ body, form, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, fieldset, th
     color: #666;
     font-size: 13px;
     font-weight: normal
+    overflow: hidden !important;
 }
 
 a {
@@ -277,6 +278,17 @@ button::-moz-focus-inner {
     height: 100%
 }
 
+.w500 {
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+.w800 {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .w1060 {
     width: 1060px;
     margin: 0 auto
@@ -303,7 +315,7 @@ button::-moz-focus-inner {
 
 /* link */
 a {
-    color: #666
+    color: #c9c9c9
 }
 
 a:hover {
@@ -756,6 +768,14 @@ a.u:hover {
     font-size: 50px !important
 }
 
+.fs60 {
+    font-size: 60px !important
+}
+
+.fs70 {
+    font-size: 70px !important
+}
+
 /*font weight*/
 .fw200 {
     font-weight: 200;
@@ -809,6 +829,11 @@ a.u:hover {
 .fc_gray {
     color: #828282 !important
 }
+
+.fc_lightgray {
+    color: #c1c1c1 !important
+}
+
 .fc_white {
     color: #ffffff !important
 }
@@ -851,6 +876,10 @@ a.u:hover {
 
 
 /* background */
+.bg_0c0c0c {
+    background-color: #0c0c0c;
+}
+
 .bg_gray {
     background: #f8f8f8
 }
@@ -865,7 +894,7 @@ a.u:hover {
 /* nav 영역 */
 nav {
     display: inline-block;
-    position: absolute;
+    position: fixed;
     top: 50px;
     z-index: 10001;
 }
@@ -873,6 +902,13 @@ nav {
 .bi {
     float: left;
     margin-left: 120px;
+}
+
+nav #topmenu_sub {
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    z-index: 10001;
 }
 
 #topmenu {
@@ -883,12 +919,30 @@ nav {
 #topmenu ul li {
     list-style: none;
     display: inline-block;
-    color: #292929;
+    color: #f9f9f9;
     float: left;
     line-height: 40px;
     vertical-align: middle;
     text-align: center;
+    font-size: 11pt;
 }
+
+#topmenu_sub {
+    height: 40px;
+    width: 100%;
+}
+
+#topmenu_sub ul li {
+    list-style: none;
+    display: inline-block;
+    color: #f9f9f9;
+    float: left;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 11pt;
+}
+
 
 .menutitle {
     float: right;
@@ -896,7 +950,7 @@ nav {
 }
 
 .menutitle a:hover {
-    color: black;
+    color: #ffffff;
     font-weight: 400;
 }
 
@@ -905,17 +959,35 @@ nav {
 
 /* main css 영역 */
 #fp-nav ul li a span {
-    background-color: black;
+    background-color: white;
 }
 
 .s0 {
-    background-image: url('../img/3d-white.gif');
+    background-image: url('../img/main_sec1.png');
     background-repeat: repeat;
     background-size: cover;
 }
 
 .s1 {
-    background-image: url('../img/sec1.jpg');
+    background-image: url('../img/main_sec2.png');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.s2 {
+    background-image: url('../img/main_sec3.png');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.s3 {
+    background-image: url('../img/main_sec4.png');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.s4 {
+    background-image: url('../img/main_sec5.png');
     background-repeat: repeat;
     background-size: cover;
 }
@@ -940,7 +1012,7 @@ nav {
 .WWD {
     position: absolute;
     display: block;
-    top: 100px;
+    top: 200px;
     text-align: center;
     left: 50%;
     transform:translateX(-50%);
@@ -982,6 +1054,23 @@ nav {
     font-weight: 400;
 }
 
+.sec5_text {
+    position: absolute;
+    display: block;
+    top: 280px;
+    left: 180px;
+}
+
+
+.viewmore_btn {
+    height: 50px;
+    width: 200px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    border: #ffffff solid 1px;
+    border-radius: 50px;
+    text-align: center;
+}
 
 /*.banner {*/
 /*    position: relative;*/
@@ -1215,6 +1304,15 @@ input[id="tab03"]:checked ~ .con3 {
 
 
 /* footer css */
+.main_footer {
+    position: fixed;
+    display: block;
+    z-index: 1001;
+    bottom: 0;
+    margin-left: 120px;
+    margin-bottom: 80px;
+}
+
 .footer_area {
     display: block;
     position: relative;
