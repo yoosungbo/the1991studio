@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="33e6b9c2-7b5e-410a-b75c-f26453e7548a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/1991_bi.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/1991_bi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="116" column="18" lean-forward="true" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+            <state relative-caret-position="222">
+              <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -83,8 +80,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="1073" lean-forward="true" selection-start-line="1073" selection-end-line="1073" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/fullpage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3663">
+              <caret line="716" column="64" lean-forward="true" selection-start-line="716" selection-start-column="64" selection-end-line="716" selection-end-column="64" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,6 +128,8 @@
       <find>wwd</find>
       <find>footer</find>
       <find>s1</find>
+      <find>scrollbar</find>
+      <find>scroll</find>
       <find>topmenu</find>
     </findStrings>
   </component>
@@ -136,8 +147,8 @@
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/work_3d.html" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
       </list>
     </option>
   </component>
@@ -225,7 +236,7 @@
       <updated>1620925596537</updated>
       <workItem from="1620925597922" duration="35216000" />
       <workItem from="1621328164445" duration="411000" />
-      <workItem from="1621328946706" duration="18463000" />
+      <workItem from="1621328946706" duration="19410000" />
     </task>
     <task id="LOCAL-00001" summary="commit1">
       <created>1621491778730</created>
@@ -241,11 +252,25 @@
       <option name="project" value="LOCAL" />
       <updated>1621492038646</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="main 페이지 이미지 적용 0602">
+      <created>1622642683600</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622642683601</updated>
+    </task>
+    <task id="LOCAL-00004" summary="main 페이지 이미지 적용 0602_2">
+      <created>1622643637324</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622643637324</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54090000" />
+    <option name="totallyTimeSpent" value="55037000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,6 +288,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13322802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32970297" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -285,7 +311,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit1" />
     <MESSAGE value="index 페이지 삭제" />
-    <option name="LAST_COMMIT_MESSAGE" value="index 페이지 삭제" />
+    <MESSAGE value="main 페이지 이미지 적용 0602" />
+    <MESSAGE value="main 페이지 이미지 적용 0602_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="main 페이지 이미지 적용 0602_2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/animate.css">
@@ -357,16 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/fullpage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="255" column="42" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work_radio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -400,17 +418,27 @@
         <state relative-caret-position="-56" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullpage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3663">
+          <caret line="716" column="64" lean-forward="true" selection-start-line="716" selection-start-column="64" selection-end-line="716" selection-end-column="64" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="1073" lean-forward="true" selection-start-line="1073" selection-end-line="1073" />
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="116" column="18" lean-forward="true" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+        <state relative-caret-position="222">
+          <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
         </state>
       </provider>
     </entry>
