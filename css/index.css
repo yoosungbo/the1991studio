@@ -899,16 +899,17 @@ nav {
     z-index: 10001;
 }
 
-.bi {
-    float: left;
-    margin-left: 120px;
-}
-
-nav #topmenu_sub {
+.nav {
     display: inline-block;
     position: absolute;
     top: 50px;
     z-index: 10001;
+}
+
+
+.bi {
+    float: left;
+    margin-left: 120px;
 }
 
 #topmenu {
@@ -917,22 +918,6 @@ nav #topmenu_sub {
 }
 
 #topmenu ul li {
-    list-style: none;
-    display: inline-block;
-    color: #f9f9f9;
-    float: left;
-    line-height: 40px;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 11pt;
-}
-
-#topmenu_sub {
-    height: 40px;
-    width: 100%;
-}
-
-#topmenu_sub ul li {
     list-style: none;
     display: inline-block;
     color: #f9f9f9;
@@ -1380,6 +1365,8 @@ input[id="work_tab04"]:checked ~ .con4 {
 
 .contact_inputbox {
     width: 800px;
+    background: #0c0c0c;
+    border: white 1px solid;
 }
 
 .submit_btn {
@@ -1397,6 +1384,15 @@ input[id="work_tab04"]:checked ~ .con4 {
     bottom: 0;
     margin-left: 120px;
     margin-bottom: 80px;
+}
+
+.main_footer a{
+    color: lightgrey;
+}
+
+.main_footer a:hover {
+    color: white;
+    font-weight: 600;
 }
 
 .footer_area {
