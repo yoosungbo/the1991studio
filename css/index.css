@@ -1193,7 +1193,14 @@ nav #topmenu_sub {
     color: black;
 }
 
-/* work_radio css */
+.conbox_about {
+    width: 100%;
+    height: 600px;
+    background: #0c0c0c;
+    margin: 0 auto;
+    display: none;
+}
+
 input[type="radio"] {
     display: none
 }
@@ -1205,6 +1212,7 @@ input[type="radio"] + label {
     color: #999;
     font-size: 25px;
     cursor: pointer;
+    font-weight: 700;
 }
 
 input[type="radio"]:checked +label {
@@ -1213,27 +1221,63 @@ input[type="radio"]:checked +label {
     text-decoration: underline white;
 }
 
-.conbox {
+input[id="about_tab01"]:checked ~ .con1 {
+    display: block;
+}
+
+input[id="about_tab02"]:checked ~ .con2 {
+    display: block;
+}
+
+input[id="about_tab03"]:checked ~ .con3 {
+    display: block;
+}
+
+input[id="about_tab04"]:checked ~ .con4 {
+    display: block;
+}
+
+.about_thumb_img {
+    display: block;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* work_radio css */
+
+.work_sec1 {
+    position: relative;
+    display: block;
+    width: 1300px;
+    height: fit-content;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conbox_work {
     width: 100%;
-    height: 600px;
+    height: fit-content;
     background: #0c0c0c;
     margin: 0 auto;
     display: none;
 }
 
-input[id="tab01"]:checked ~ .con1 {
+input[id="work_tab01"]:checked ~ .con1 {
     display: block;
 }
 
-input[id="tab02"]:checked ~ .con2 {
+input[id="work_tab02"]:checked ~ .con2 {
     display: block;
 }
 
-input[id="tab03"]:checked ~ .con3 {
+input[id="work_tab03"]:checked ~ .con3 {
     display: block;
 }
 
-input[id="tab04"]:checked ~ .con4 {
+input[id="work_tab04"]:checked ~ .con4 {
     display: block;
 }
 
@@ -1252,6 +1296,9 @@ input[id="tab04"]:checked ~ .con4 {
 
 
 /* work detail css */
+
+
+
 
 /* mamamoo_work detail css */
 .mamamoo_sec01 {
@@ -1295,6 +1342,17 @@ input[id="tab04"]:checked ~ .con4 {
 
 
 /* contact css */
+.contact_sec1 {
+    position: relative;
+    display: block;
+    width: 70%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
 .contact_box {
     display: block;
     width: 1100px;
@@ -1326,8 +1384,8 @@ input[id="tab04"]:checked ~ .con4 {
 
 .submit_btn {
     width: 200px;
-    border: solid 1px #292929;
-    background-color: white;
+    border: solid 1px white;
+    background-color: #0c0c0c;
 }
 
 
