@@ -1123,7 +1123,7 @@ nav #topmenu_sub {
 
 
 /* about css */
-.about_area {
+.about_sec1 {
     position: relative;
     display: block;
     width: 70%;
@@ -1132,14 +1132,28 @@ nav #topmenu_sub {
     margin-right: auto;
 }
 
-.production_area {
+.about_text {
+    position: absolute;
+    display: block;
+    left: 0;
+    z-index: 1001;
+}
+
+.about_img {
+    position: absolute;
+    display: block;
+    right: 0;
+}
+
+.about_sec2 {
     position: relative;
     display: block;
-    width: fit-content;
-    height: 120px;
-    margin-right: auto;
+    width: 70%;
+    height: fit-content;
     margin-left: auto;
+    margin-right: auto;
 }
+
 
 /* work css */
 .work_bg_3d {
@@ -1186,18 +1200,21 @@ input[type="radio"] {
 input[type="radio"] + label {
     display: inline-block;
     padding: 20px;
-    background: #ccc;
+    margin-right: 30px;
+    background: #0c0c0c;
     color: #999;
-    font-size: 15px;
+    font-size: 25px;
     cursor: pointer;
 }
+
 input[type="radio"]:checked +label {
-    background: #aaa;
-    color: #111;
+    background: #0c0c0c;
+    color: #ffffff;
+    text-decoration: underline white;
 }
 
 .conbox {
-    width: 500px;
+    width: 100%;
     height: 600px;
     background: #aaa;
     margin: 0 auto;
@@ -1213,6 +1230,10 @@ input[id="tab02"]:checked ~ .con2 {
 }
 
 input[id="tab03"]:checked ~ .con3 {
+    display: block;
+}
+
+input[id="tab04"]:checked ~ .con4 {
     display: block;
 }
 
