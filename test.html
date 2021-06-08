@@ -2,101 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-        .hideme
-        {
-            opacity:0;
-        }
-    </style>
-    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>test</title>
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="js/wow.min.js"></script>
     <script>
-        $(document).ready(function() {
-            /* 1 */
-            $(window).scroll( function(){
-                /* 2 */
-                $('.hideme').each( function(i){
-                    var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-                    var bottom_of_window = $(window).scrollTop() + $(window).height();
-                    /* 3 */
-                    if( bottom_of_window > bottom_of_object/2 ){
-                        $(this).animate({'opacity':'1'},500);
-                    }
-                });
-            });
-        });
+        var wow = new WOW(
+            {
+                boxClass:     'wow',      // animated element css class (default is wow)
+                animateClass: 'animate__animated', // animation css class (default is animated)
+                offset:       300,          // distance to the element when triggering the animation (default is 0)
+                mobile:       true,       // trigger animations on mobile devices (default is true)
+                live:         true,       // act on asynchronously loaded content (default is true)
+                callback:     function(box) {
+                    // the callback is fired every time an animation is started
+                    // the argument that is passed in is the DOM node being animated
+                },
+                scrollContainer: null,    // optional scroll container selector, otherwise use window,
+                resetAnimation: true,     // reset animation on end (default is true)
+            }
+        );
+        wow.init();
 
     </script>
 
+    <link rel="stylesheet" href="css/fullpage.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/fullpage.js"></script>
+
 </head>
-<body>
-<div id="container">
+<body class="bg_0c0c0c">
+<div class="section">
+    <input type="radio" name="slide" id="slide01" checked>
+    <input type="radio" name="slide" id="slide02">
+    <input type="radio" name="slide" id="slide03">
 
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
-    <div class="hideme">Fade In</div>
+    <div class="slidewrap">
+        <ul class="slidelist">
+            <li>
+                <a>
+                    <label for="slide03" class="left"></label>
+                    <img src="./img/1991_bi_black.png">
+                    <label for="slide02" class="right"></label>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <label for="slide01" class="left"></label>
+                    <img src="./img/1991_bi_black.png">
+                    <label for="slide03" class="right"></label>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <label for="slide02" class="left"></label>
+                    <img src="./img/1991_bi_black.png">
+                    <label for="slide01" class="right"></label>
+                </a>
+            </li>
+        </ul>
 
-
+    </div>
 </div>
 
 
-</div>
 </body>
 </html>
