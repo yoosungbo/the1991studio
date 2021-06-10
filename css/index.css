@@ -972,10 +972,32 @@ nav {
 }
 
 .s4 {
-    background-image: url('../img/main_sec.png');
+    background-image: url('../img/main_mamamoo.jpg');
     background-repeat: repeat;
     background-size: cover;
 }
+
+
+.s5 {
+    background-image: url('../img/main_sf9.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.s6 {
+    background-image: url('../img/main_onf.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+
+.sec_title {
+    display: block;
+    position: absolute;
+    margin-left: 10%;
+}
+
 
 
 .scroll_down {
@@ -997,10 +1019,21 @@ nav {
 .WWD {
     position: absolute;
     display: block;
-    top: 200px;
+    top: 170px;
     text-align: center;
     left: 50%;
     transform:translateX(-50%);
+}
+
+
+.vr_text {
+    margin-left: 60%;
+    margin-bottom: 10%;
+}
+
+.motion_text {
+    margin-left: 40%;
+    margin-bottom: 5%;
 }
 
 .img_box {
@@ -1037,13 +1070,6 @@ nav {
     color: #ffffff;
     font-size: 15px;
     font-weight: 400;
-}
-
-.sec5_text {
-    position: absolute;
-    display: block;
-    top: 280px;
-    left: 180px;
 }
 
 
@@ -1139,45 +1165,6 @@ nav {
     margin-right: auto;
 }
 
-
-/* work css */
-.work_bg_3d {
-    position: absolute;
-    background-image: url('../img/work_bg.png');
-    background-repeat: no-repeat;
-    width: 100%;
-    height: fit-content;
-}
-
-.work_area {
-    margin-top: 200px;
-    position: relative;
-    display: block;
-    width: 80%;
-    height: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.about_sec3 {
-    background-color: #e5e5e5;
-}
-
-.menu_list {
-    position: relative;
-    display: inline-block;
-    margin-right: 50px;
-    font-size: 30px;
-    font-weight: 600;
-}
-
-.work_ul {
-    color: #999999;
-}
-.work_ul a:focus {
-    color: black;
-}
-
 .conbox_about {
     width: 100%;
     height: 600px;
@@ -1229,6 +1216,46 @@ input[id="about_tab04"]:checked ~ .con4 {
     overflow: hidden;
 }
 
+
+/*!* work css *!
+.work_bg_3d {
+    position: absolute;
+    background-image: url('../img/work_bg.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
+}
+
+.work_area {
+    margin-top: 200px;
+    position: relative;
+    display: block;
+    width: 80%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_sec3 {
+    background-color: #e5e5e5;
+}
+
+.menu_list {
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.work_ul {
+    color: #999999;
+}
+.work_ul a:focus {
+    color: black;
+}*/
+
+
 /* work_radio css */
 
 .work_sec1 {
@@ -1245,7 +1272,6 @@ input[id="about_tab04"]:checked ~ .con4 {
 .conbox_work {
     width: 100%;
     height: fit-content;
-    background: #0c0c0c;
     margin: 0 auto;
     display: none;
 }
@@ -1266,18 +1292,13 @@ input[id="work_tab04"]:checked ~ .con4 {
     display: block;
 }
 
-.about_thumb_img {
-    display: block;
-    position: relative;
-    text-align: center;
-    overflow: hidden;
-}
 
 .bg_3d {
     position: absolute;
     display: block;
     background-image: url('../img/work_bg.png');
 }
+
 
 
 /* work detail css */
