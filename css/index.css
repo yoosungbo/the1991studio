@@ -294,6 +294,11 @@ button::-moz-focus-inner {
     margin: 0 auto
 }
 
+.w1200 {
+    width: 1200px;
+    margin: 0 auto
+}
+
 .w1300 {
     width: 1300px;
     margin: 0 auto
