@@ -1378,14 +1378,14 @@ input[id="work_tab04"]:checked ~ .con4 {
 .contact_area {
     position: relative;
     display: block;
-    width: fit-content;
+    max-width: 800px;
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
 }
 
 .contact_inputbox {
-    width: 800px;
+    width: 100%;
     background: #0c0c0c;
     border: white 1px solid;
 }
@@ -1394,6 +1394,12 @@ input[id="work_tab04"]:checked ~ .con4 {
     width: 200px;
     border: solid 1px white;
     background-color: #0c0c0c;
+}
+
+.submit_btn:hover {
+    background: #ffffff;
+    color: #0c0c0c;
+    transition: all 0.5s;
 }
 
 
@@ -1464,12 +1470,6 @@ input[id="work_tab04"]:checked ~ .con4 {
     color: white;
     font-weight: 600;
     text-decoration: underline;
-}
-
-.submit_btn:hover {
-    background: #ffffff;
-    color: #0c0c0c;
-    transition: all 0.5s;
 }
 
 /*test*/
