@@ -1231,7 +1231,7 @@ input[id="about_tab04"]:checked ~ .con4 {
 .career_box {
     position: relative;
     display: block;
-    width: 1250px;
+    width: 1200px;
     height: 250px;
 }
 
@@ -1249,7 +1249,7 @@ input[id="about_tab04"]:checked ~ .con4 {
     width: 500px;
     height: fit-content;
     top: 120px;
-    left: 750px;
+    left: 700px;
 }
 
 .career_text_r2 {
@@ -1267,7 +1267,7 @@ input[id="about_tab04"]:checked ~ .con4 {
     width: 500px;
     height: fit-content;
     top: 50px;
-    left: 750px;
+    left: 700px;
 }
 
 .career_text_r4 {
@@ -1285,7 +1285,7 @@ input[id="about_tab04"]:checked ~ .con4 {
     width: 500px;
     height: fit-content;
     top: 30px;
-    left: 750px;
+    left: 700px;
 }
 
 
@@ -1372,6 +1372,78 @@ input[id="work_tab04"]:checked ~ .con4 {
     background-image: url('../img/work_bg.png');
 }
 
+.work_list a{
+    display: block;
+    width: auto;
+    text-decoration: none;
+}
+
+a .screen {
+    position: relative;
+    overflow: hidden;
+}
+
+a .screen .top {
+    position: absolute;
+    bottom: 150%;
+    left: 30px;
+    z-index: 2;
+    color: #ffffff;
+    transition: all .35s;
+}
+
+a .screen .bottom {
+     position: absolute;
+     top: 150%;
+     left: 30px;
+     z-index: 2;
+     color: #ffffff;
+     transition: all .35s;
+ }
+
+a .screen .date {
+    position: absolute;
+    top: 150%;
+    left: 30px;
+    z-index: 2;
+    color: #ffffff;
+    transition: all .35s;
+}
+
+a .screen img {
+    width: 100%;
+}
+
+.work_list a:hover .top {
+    bottom: 52%;
+}
+
+.work_list a:hover .bottom {
+    top: 50%;
+}
+
+.work_list a:hover .date {
+    top: 58%;
+}
+
+
+.work_list a .screen::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index: 1;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.work_list a:hover .screen::after {
+    opacity: 1;
+}
 
 
 /* work detail css */
