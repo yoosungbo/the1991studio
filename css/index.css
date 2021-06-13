@@ -1386,7 +1386,7 @@ a .screen {
 a .screen .top {
     position: absolute;
     bottom: 150%;
-    left: 30px;
+    left: 60px;
     z-index: 2;
     color: #ffffff;
     transition: all .35s;
@@ -1395,7 +1395,7 @@ a .screen .top {
 a .screen .bottom {
      position: absolute;
      top: 150%;
-     left: 30px;
+     left: 60px;
      z-index: 2;
      color: #ffffff;
      transition: all .35s;
@@ -1404,11 +1404,57 @@ a .screen .bottom {
 a .screen .date {
     position: absolute;
     top: 150%;
-    left: 30px;
+    left: 60px;
     z-index: 2;
     color: #ffffff;
     transition: all .35s;
 }
+
+a .screen .top_2 {
+    position: absolute;
+    bottom: 150%;
+    left: 80px;
+    z-index: 2;
+    color: #ffffff;
+    transition: all .35s;
+}
+
+a .screen .bottom_2 {
+    position: absolute;
+    top: 150%;
+    left: 80px;
+    z-index: 2;
+    color: #ffffff;
+    transition: all .35s;
+}
+
+a .screen .top_3 {
+    position: absolute;
+    bottom: 150%;
+    left: 60px;
+    z-index: 2;
+    color: #ffffff;
+    transition: all .35s;
+}
+
+a .screen .bottom_3 {
+    position: absolute;
+    top: 150%;
+    left: 60px;
+    z-index: 2;
+    color: #ffffff;
+    transition: all .35s;
+}
+
+a .screen .date_3 {
+    position: absolute;
+    top: 150%;
+    left: 60px;
+    z-index: 2;
+    color: #ffffff;
+    transition: all .35s;
+}
+
 
 a .screen img {
     width: 100%;
@@ -1424,6 +1470,26 @@ a .screen img {
 
 .work_list a:hover .date {
     top: 58%;
+}
+
+.work_list a:hover .top_2 {
+    bottom: 17%;
+}
+
+.work_list a:hover .bottom_2 {
+    top: 85%;
+}
+
+.work_list a:hover .top_3 {
+    bottom: 82%;
+}
+
+.work_list a:hover .bottom_3 {
+    top: 20%;
+}
+
+.work_list a:hover .date_3 {
+    top: 30%;
 }
 
 
