@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="33e6b9c2-7b5e-410a-b75c-f26453e7548a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fullpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fullpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/work_radio.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +24,35 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work_radio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="639">
+              <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work_3d.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="919">
+              <caret line="81" column="18" lean-forward="true" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="41" selection-start-line="41" selection-end-line="54" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -27,11 +60,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="1396" column="15" lean-forward="true" selection-start-line="1396" selection-start-column="15" selection-end-line="1396" selection-end-column="15" />
-              <folding>
-                <element signature="e#17319#17342#0" />
-              </folding>
+            <state relative-caret-position="446">
+              <caret line="1349" lean-forward="true" selection-start-line="1349" selection-end-line="1349" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3042">
+              <caret line="58" column="50" lean-forward="true" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workdetail_mamamoo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="775">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -40,36 +88,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>s3</find>
-      <find>fc_g</find>
-      <find>footer</find>
-      <find>s1</find>
-      <find>scrollbar</find>
-      <find>scroll</find>
-      <find>topmenu</find>
-      <find>25</find>
-      <find>s5</find>
-      <find>s4</find>
-      <find>about</find>
-      <find>about_area</find>
-      <find>tab_con</find>
       <find>700</find>
       <find>label</find>
       <find>submit</find>
       <find>a</find>
       <find>w1200</find>
       <find>sec5_t</find>
-      <find>wwd</find>
       <find>submit_</find>
       <find>contact_input</find>
       <find>w1300</find>
       <find>about_text</find>
       <find>img_c</find>
       <find>fs50</find>
-      <find>work_sec1</find>
-      <find>w1250</find>
       <find>career</find>
       <find>work_ra</find>
+      <find>topm</find>
+      <find>footer</find>
+      <find>.fp-slidesNav ul</find>
+      <find>#fp-nav ul</find>
+      <find>nav</find>
+      <find>trans</find>
+      <find>translate</find>
+      <find>w1250</find>
+      <find>main</find>
+      <find>left</find>
+      <find>wwd</find>
+      <find>sec_title</find>
+      <find>screen</find>
+      <find>sec</find>
+      <find>work_sec1</find>
+      <find>w1100</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,18 +132,19 @@
         <option value="$PROJECT_DIR$/workdetail_mamamoo.html" />
         <option value="$PROJECT_DIR$/work_3d.html" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/css/fullpage.css" />
         <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/work_radio.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/work_radio.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1440" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -103,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,16 +165,10 @@
               <item name="the-1991" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="the-1991" type="b2602c69:ProjectViewProjectNode" />
-              <item name="the-1991" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,7 +221,8 @@
       <workItem from="1620925597922" duration="35216000" />
       <workItem from="1621328164445" duration="411000" />
       <workItem from="1621328946706" duration="56935000" />
-      <workItem from="1623486336745" duration="12909000" />
+      <workItem from="1623486336745" duration="14541000" />
+      <workItem from="1624105301735" duration="18179000" />
     </task>
     <task id="LOCAL-00001" summary="commit1">
       <created>1621491778730</created>
@@ -305,11 +350,18 @@
       <option name="project" value="LOCAL" />
       <updated>1623597703637</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="메인화면, 헤더 푸터 위치 수정 _ 0614">
+      <created>1623598219658</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1623598219658</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105471000" />
+    <option name="totallyTimeSpent" value="125282000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,10 +373,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09952607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16208598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -367,19 +419,10 @@
     <MESSAGE value="about 페이지 w1200 수정 _ 0613" />
     <MESSAGE value="work 페이지 딤처리 효과 구현 완료 _ 0614" />
     <MESSAGE value="work 페이지 딤처리 효과 구현 수정 _ 0614" />
-    <option name="LAST_COMMIT_MESSAGE" value="work 페이지 딤처리 효과 구현 수정 _ 0614" />
+    <MESSAGE value="메인화면, 헤더 푸터 위치 수정 _ 0614" />
+    <option name="LAST_COMMIT_MESSAGE" value="메인화면, 헤더 푸터 위치 수정 _ 0614" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fullpage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/wow.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -455,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work_3d.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/1991_bi_black.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -473,20 +509,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/img/right.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workdetail_mamamoo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/work_all.png">
       <provider selected="true" editor-type-id="images" />
@@ -506,73 +528,69 @@
     <entry file="file://$PROJECT_DIR$/img/1991_bi_white.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.html">
+    <entry file="file://$PROJECT_DIR$/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fullpage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="90" column="22" lean-forward="true" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
-          <folding>
-            <element signature="e#2798#2804#0" expanded="true" />
-            <element signature="e#2805#2811#0" expanded="true" />
-            <element signature="e#2896#2902#0" expanded="true" />
-            <element signature="e#2903#2909#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="146">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
+    <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+        <state relative-caret-position="645">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
+    <entry file="file://$PROJECT_DIR$/workdetail_mamamoo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="237" lean-forward="true" selection-start-line="237" selection-end-line="237" />
-          <folding>
-            <element signature="e#6228#6234#0" expanded="true" />
-            <element signature="e#6503#6509#0" expanded="true" />
-            <element signature="e#6525#6531#0" expanded="true" />
-            <element signature="e#6826#6832#0" expanded="true" />
-            <element signature="e#6870#6876#0" expanded="true" />
-            <element signature="e#6917#6923#0" expanded="true" />
-            <element signature="e#6961#6967#0" expanded="true" />
-            <element signature="e#7345#7351#0" expanded="true" />
-            <element signature="e#7421#7427#0" expanded="true" />
-            <element signature="e#7504#7510#0" expanded="true" />
-            <element signature="e#7580#7586#0" expanded="true" />
-            <element signature="e#7771#7777#0" expanded="true" />
-            <element signature="e#7840#7846#0" expanded="true" />
-            <element signature="e#7912#7918#0" expanded="true" />
-            <element signature="e#7981#7987#0" expanded="true" />
-            <element signature="e#8039#8045#0" expanded="true" />
-            <element signature="e#8361#8367#0" expanded="true" />
-            <element signature="e#8437#8443#0" expanded="true" />
-            <element signature="e#8516#8522#0" expanded="true" />
-            <element signature="e#8605#8611#0" expanded="true" />
-            <element signature="e#8882#8888#0" expanded="true" />
-            <element signature="e#8961#8967#0" expanded="true" />
-            <element signature="e#9041#9047#0" expanded="true" />
-            <element signature="e#9116#9122#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="775">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="1396" column="15" lean-forward="true" selection-start-line="1396" selection-start-column="15" selection-end-line="1396" selection-end-column="15" />
-          <folding>
-            <element signature="e#17319#17342#0" />
-          </folding>
+        <state relative-caret-position="446">
+          <caret line="1349" lean-forward="true" selection-start-line="1349" selection-end-line="1349" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work_3d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="41" selection-start-line="41" selection-end-line="54" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3042">
+          <caret line="58" column="50" lean-forward="true" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="919">
+          <caret line="81" column="18" lean-forward="true" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work_radio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="639">
+          <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
         </state>
       </provider>
     </entry>
