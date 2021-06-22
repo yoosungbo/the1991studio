@@ -1355,6 +1355,30 @@ input[id="about_tab04"]:checked ~ .con4 {
     display: none;
 }
 
+.work_sec1 .tab_content input[type="radio"] {
+    display: none
+}
+
+.work_sec1 .tab_content input[type="radio"] + label {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 30px;
+    background: #0c0c0c;
+    color: #999;
+    font-size: 32px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.work_sec1 .tab_content input[type="radio"]:checked +label {
+    background: #0c0c0c;
+    color: #ffffff;
+    text-decoration: underline white;
+}
+
+
+
+
 input[id="work_tab01"]:checked ~ .con1 {
     display: block;
 }
@@ -1391,111 +1415,38 @@ a .screen {
 
 a .screen .top {
     position: absolute;
-    bottom: 150%;
     left: 60px;
     z-index: 2;
     color: #ffffff;
-    transition: all .35s;
+    transition: all .5s;
+    display: none;
 }
 
 a .screen .bottom {
      position: absolute;
-     top: 150%;
      left: 60px;
      z-index: 2;
      color: #ffffff;
-     transition: all .35s;
+     transition: all .5s;
+    display: none;
  }
-
-a .screen .date {
-    position: absolute;
-    top: 150%;
-    left: 60px;
-    z-index: 2;
-    color: #ffffff;
-    transition: all .35s;
-}
-
-a .screen .top_2 {
-    position: absolute;
-    bottom: 150%;
-    left: 80px;
-    z-index: 2;
-    color: #ffffff;
-    transition: all .35s;
-}
-
-a .screen .bottom_2 {
-    position: absolute;
-    top: 150%;
-    left: 80px;
-    z-index: 2;
-    color: #ffffff;
-    transition: all .35s;
-}
-
-a .screen .top_3 {
-    position: absolute;
-    bottom: 150%;
-    left: 60px;
-    z-index: 2;
-    color: #ffffff;
-    transition: all .35s;
-}
-
-a .screen .bottom_3 {
-    position: absolute;
-    top: 150%;
-    left: 60px;
-    z-index: 2;
-    color: #ffffff;
-    transition: all .35s;
-}
-
-a .screen .date_3 {
-    position: absolute;
-    top: 150%;
-    left: 60px;
-    z-index: 2;
-    color: #ffffff;
-    transition: all .35s;
-}
 
 
 a .screen img {
     width: 100%;
 }
 
+
 .work_list a:hover .top {
-    bottom: 52%;
+    bottom: 110px;
+    display: block;
+    transition: all .5s;
 }
 
 .work_list a:hover .bottom {
-    top: 50%;
-}
-
-.work_list a:hover .date {
-    top: 58%;
-}
-
-.work_list a:hover .top_2 {
-    bottom: 17%;
-}
-
-.work_list a:hover .bottom_2 {
-    top: 85%;
-}
-
-.work_list a:hover .top_3 {
-    bottom: 82%;
-}
-
-.work_list a:hover .bottom_3 {
-    top: 20%;
-}
-
-.work_list a:hover .date_3 {
-    top: 30%;
+    bottom: 80px;
+    display: block;
+    transition: all .5s;
 }
 
 
@@ -1507,7 +1458,7 @@ a .screen img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.5);
+    background: linear-gradient(to top, black, transparent);
     z-index: 1;
     opacity: 0;
     transition: all .3s;
@@ -1744,7 +1695,16 @@ a .screen img {
 .section [id="slide03"]:checked ~ .slidewrap .slidelist > li {transform: translateX(200%);}
 
 
+
 @media (max-width:800px) {
+
+    .w1200 {
+        width: 100%;
+    }
+
+    .w1100 {
+        width: 100%;
+    }
 
     /* main css 영역 */
     #fp-nav ul li a span {
@@ -1752,44 +1712,44 @@ a .screen img {
     }
 
     .s0 {
-        background-image: url('../img/main_sec1.png');
+        background-image: url('../img/main_sec1_m.jpg');
         background-repeat: repeat;
         background-size: cover;
     }
 
     .s1 {
-        background-image: url('../img/main_sec2.jpeg');
+        background-image: url('../img/main_sec2_m.jpg');
         background-repeat: repeat;
         background-size: cover;
     }
 
     .s2 {
-        background-image: url('../img/main_sec3.jpeg');
+        background-image: url('../img/main_sec3_m.jpg');
         background-repeat: repeat;
         background-size: cover;
     }
 
     .s3 {
-        background-image: url('../img/main_sec4.jpeg');
+        background-image: url('../img/main_sec4_m.jpg');
         background-repeat: repeat;
         background-size: cover;
     }
 
     .s4 {
-        background-image: url('../img/main_mamamoo.jpg');
+        background-image: url('../img/main_mamamoo_m.jpg');
         background-repeat: repeat;
         background-size: cover;
     }
 
 
     .s5 {
-        background-image: url('../img/main_sf9.jpg');
+        background-image: url('../img/main_sf9_m.jpg');
         background-repeat: repeat;
         background-size: cover;
     }
 
     .s6 {
-        background-image: url('../img/main_onf.jpg');
+        background-image: url('../img/main_onf_m.jpg');
         background-repeat: repeat;
         background-size: cover;
     }
@@ -1819,10 +1779,6 @@ a .screen img {
         background-repeat: repeat;
     }
 
-    .w1100 {
-        width: 100%;
-        margin: auto;
-    }
 
     .WWD {
         position: absolute;
@@ -1918,7 +1874,7 @@ a .screen img {
         position: absolute;
         display: block;
         text-align: center;
-        width: 800px;
+        width: 100%;
         z-index: 1001;
         margin-top: 70px;
     }
@@ -1935,7 +1891,7 @@ a .screen img {
         height: fit-content;
         margin-left: auto;
         margin-right: auto;
-        width: 800px;
+        width: 100%;
     }
 
     .conbox_about {
@@ -1943,11 +1899,15 @@ a .screen img {
         height: 400px;
         background: #0c0c0c;
         margin: 0 auto;
-        display: none;
+        padding: 0 20px 0 20px;
+    }
+
+    .tab_content {
+        text-align: center;
     }
 
     .about_thumb_img img{
-        width: 800px;
+        width: 100%;
     }
 
     input[type="radio"] {
@@ -1956,10 +1916,10 @@ a .screen img {
     input[type="radio"] + label {
         display: inline-block;
         padding: 10px;
-        margin-right: 20px;
+        margin: 0 auto;
         background: #0c0c0c;
         color: #999;
-        font-size: 25px;
+        font-size: 18px;
         cursor: pointer;
         font-weight: 700;
         text-align: center;
@@ -1974,7 +1934,7 @@ a .screen img {
     }
 
     .about_sec3 {
-        width: 800px;
+        width: 100%;
     }
 
     .career_box {
@@ -2050,12 +2010,40 @@ a .screen img {
         margin-right: auto;
     }
 
+    .work_sec1 .tab_content {
+        text-align: center;
+    }
+
     .conbox_work {
-        width: 100%;
+        width: fit-content;
         height: fit-content;
         margin: 0 auto;
         display: none;
     }
+
+    .work_sec1 .tab_content input[type="radio"] {
+        display: none
+    }
+
+    .work_sec1 .tab_content input[type="radio"] + label {
+        display: inline-block;
+        padding: 20px;
+        margin-right: 30px;
+        background: #0c0c0c;
+        color: #999;
+        font-size: 25px;
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+    .work_sec1 .tab_content input[type="radio"]:checked +label {
+        background: #0c0c0c;
+        color: #ffffff;
+        text-decoration: underline white;
+    }
+
+
+
 
     input[id="work_tab01"]:checked ~ .con1 {
         display: block;
@@ -2093,74 +2081,20 @@ a .screen img {
 
     a .screen .top {
         position: absolute;
-        bottom: 150%;
         left: 60px;
         z-index: 2;
         color: #ffffff;
-        transition: all .35s;
+        transition: all .5s;
+        display: none;
     }
 
     a .screen .bottom {
         position: absolute;
-        top: 150%;
         left: 60px;
         z-index: 2;
         color: #ffffff;
-        transition: all .35s;
-    }
-
-    a .screen .date {
-        position: absolute;
-        top: 150%;
-        left: 60px;
-        z-index: 2;
-        color: #ffffff;
-        transition: all .35s;
-    }
-
-    a .screen .top_2 {
-        position: absolute;
-        bottom: 150%;
-        left: 80px;
-        z-index: 2;
-        color: #ffffff;
-        transition: all .35s;
-    }
-
-    a .screen .bottom_2 {
-        position: absolute;
-        top: 150%;
-        left: 80px;
-        z-index: 2;
-        color: #ffffff;
-        transition: all .35s;
-    }
-
-    a .screen .top_3 {
-        position: absolute;
-        bottom: 150%;
-        left: 60px;
-        z-index: 2;
-        color: #ffffff;
-        transition: all .35s;
-    }
-
-    a .screen .bottom_3 {
-        position: absolute;
-        top: 150%;
-        left: 60px;
-        z-index: 2;
-        color: #ffffff;
-        transition: all .35s;
-    }
-
-    a .screen .date_3 {
-        position: absolute;
-        top: 150%;
-        left: 60px;
-        z-index: 2;
-        color: #ffffff;
-        transition: all .35s;
+        transition: all .5s;
+        display: none;
     }
 
 
@@ -2168,36 +2102,17 @@ a .screen img {
         width: 100%;
     }
 
+
     .work_list a:hover .top {
-        bottom: 52%;
+        bottom: 70px;
+        display: block;
+        transition: all .5s;
     }
 
     .work_list a:hover .bottom {
-        top: 50%;
-    }
-
-    .work_list a:hover .date {
-        top: 58%;
-    }
-
-    .work_list a:hover .top_2 {
-        bottom: 17%;
-    }
-
-    .work_list a:hover .bottom_2 {
-        top: 85%;
-    }
-
-    .work_list a:hover .top_3 {
-        bottom: 82%;
-    }
-
-    .work_list a:hover .bottom_3 {
-        top: 20%;
-    }
-
-    .work_list a:hover .date_3 {
-        top: 30%;
+        bottom: 40px;
+        display: block;
+        transition: all .5s;
     }
 
 
@@ -2209,7 +2124,7 @@ a .screen img {
         left: 0;
         width: 100%;
         height: 100%;
-        background: rgba(0,0,0,.5);
+        background: linear-gradient(to top, black, transparent);
         z-index: 1;
         opacity: 0;
         transition: all .3s;
@@ -2218,6 +2133,7 @@ a .screen img {
     .work_list a:hover .screen::after {
         opacity: 1;
     }
+
 
 
 
@@ -2290,6 +2206,18 @@ a .screen img {
         color: white;
         font-weight: 600;
         text-decoration: underline;
+    }
+
+}
+
+@media (max-width:640px) {
+    .footer_left {
+        display: none;
+        position: relative;
+        float: left;
+        left: 0;
+        width: 200px;
+        height: 200px;
     }
 
 }
