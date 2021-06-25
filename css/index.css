@@ -1463,16 +1463,6 @@ input[id="work_tab03"]:checked ~ .con3 {
     display: block;
 }
 
-input[id="work_tab04"]:checked ~ .con4 {
-    display: block;
-}
-
-
-.bg_3d {
-    position: absolute;
-    display: block;
-    background-image: url('../img/work_bg.png');
-}
 
 .work_list a{
     display: block;
