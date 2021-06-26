@@ -29,11 +29,33 @@
 
     </script>
 
+    <!--    topbutton script 내용-->
+    <script>
+        $(window).scroll(function() {
+            // top button controll
+            if ($(this).scrollTop() > 500) {
+                $('#topButton').fadeIn();
+            } else {
+                $('#topButton').fadeOut();
+            }
+        });
+
+        $(document).ready(function() {
+            // Top Button click event handler
+            $("#topButtonImg").click(function() {
+                $('html, body').animate({scrollTop:0}, '300');
+            });
+        });
+    </script>
+
     <link rel="stylesheet" href="css/index.css" />
 
 </head>
 <body class="bg_0c0c0c">
 
+<div id="topButton" style="cursor: pointer">
+    <img src="./img/topbutton.png" id="topButtonImg">
+</div>
 
 <div id="topmenu" class="nav">
     <div class="bi">

@@ -962,6 +962,9 @@ nav {
 
 /* main css 영역 */
 
+#topButton {position: fixed; right: 3%; bottom: 50px; display: none; z-index: 999;}
+
+
 #fp-nav ul li a span {
     background-color: white;
 }
@@ -1100,54 +1103,6 @@ nav {
     border-radius: 50px;
     text-align: center;
 }
-
-/*.banner {*/
-/*    position: relative;*/
-/*    display: inline-block;*/
-/*}*/
-
-/*.banner span.banner_text {*/
-/*    position: absolute;*/
-/*    top: 50%;*/
-/*    left: 0;*/
-/*    transform: translateY(-50%);*/
-/*    display: none;*/
-/*    width: 100%;*/
-/*    font-size: 30px;*/
-/*    color: #fff;*/
-/*    font-weight: 600;*/
-/*    text-align: center;*/
-/*}*/
-
-/*.banner::before, .banner::after {*/
-/*    content: '';*/
-/*    position: absolute;*/
-/*    top: 50%;*/
-/*    left: 50%;*/
-/*    width: 95%;*/
-/*    height: 85%;*/
-/*    transform: translate(-50%, -50%);*/
-/*    transition: all .8s;*/
-/*}*/
-
-/*.banner::before {*/
-/*    border-top: 2px solid #fff;*/
-/*    border-bottom: 2px solid #fff;*/
-/*    width: 0;*/
-/*}*/
-
-/*.banner::after {*/
-/*    background-color: #111111;*/
-/*    opacity: 50%;*/
-/*    border-left: 2px solid #fff;*/
-/*    border-right: 2px solid #fff;*/
-/*    height: 0;*/
-/*}*/
-
-/*.banner:hover span.banner_text {display: block}*/
-/*.banner:hover::before {width: 95%}*/
-/*.banner:hover::after {height: 85%}*/
-
 
 
 
@@ -1554,7 +1509,7 @@ a .screen img {
 .title_text {
     display: inline-block;
     width: 275px;
-    height: 200px;
+    height: 150px;
     color: #ffffff;
     font-size: 13pt;
     font-weight: 600;
@@ -1563,7 +1518,7 @@ a .screen img {
 .content_text {
     display: inline-block;
     width: 680px;
-    height: 200px;
+    height: 150px;
     color: #ffffff;
     font-size: 10pt;
     font-weight: 200;
