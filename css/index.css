@@ -509,6 +509,11 @@ a.u:hover {
     margin-bottom: 20px !important
 }
 
+.mb50 {
+    margin-bottom: 50px !important
+}
+
+
 .mb80 {
     margin-bottom: 80px !important
 }
@@ -1652,7 +1657,7 @@ a .screen img {
     position: relative;
     float: right;
     right: 0;
-    width: 320px;
+    width: 180px;
     height: 200px;
     text-align: right;
 }
@@ -2227,7 +2232,7 @@ a .screen img {
         position: relative;
         float: right;
         right: 0;
-        width: 320px;
+        width: 180px;
         height: 200px;
         text-align: right;
     }
