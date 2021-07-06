@@ -2,13 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33e6b9c2-7b5e-410a-b75c-f26453e7548a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/work_dominant/dominant_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_dominant/dominant_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_dominant/dominant_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_dominant/dominant_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_dominant/dominant_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_eos/eos_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_eos/eos_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_eos/eos_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_eos/eos_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_eos/eos_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_eos/eos_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_eos/eos_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_eos/flac_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_flac/flac_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_flac/flac_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_flac/flac_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_hini/hini_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_hini/hini_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_hini/hini_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_hini/hini_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_jsh/jsh_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_jsh/jsh_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_jsh/jsh_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_jsh/jsh_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_jsh/jsh_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_jsh/jsh_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_jsh/jsh_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_jsh/jsh_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_mgigs/mgigs_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_mgigs/mgigs_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_mgigs/mgigs_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_mgigs/mgigs_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_mgigs/mgigs_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_mgigs/mgigs_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_sang/sang_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_sang/sang_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_sang/sang_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_sang/sang_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_sang/sang_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_sang/sang_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_sang/sang_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_sang/sang_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_tn/tn_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_tn/tn_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_tn/tn_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_tn/tn_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_tn/tn_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_tn/tn_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_tn/tn_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_tn/tn_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_who/who_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_who/who_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_who/who_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_who/who_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_who/who_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_who/who_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_who/who_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_who/who_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_who/who_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_who/who_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_yanolja/yanolja_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_yanolja/yanolja_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_yanolja/yanolja_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_yanolja/yanolja_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_yanolja/yanolja_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_yanolja/yanolja_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_yanolja/yanolja_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_yanolja/yanolja_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_yanolja/yanolja_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_yanolja/yanolja_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workdetail_dominant.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workdetail_eos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workdetail_flac.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workdetail_hini.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workdetail_jsh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workdetail_mgigs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workdetail_sang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workdetail_tn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workdetail_who.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workdetail_yanolja.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/about_img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work_radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/work_radio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workdetail_mamamoo.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_mamamoo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_sf9.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_sf9.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,22 +101,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/workdetail_sf9.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1266">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="930">
+              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work_radio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="859">
-              <caret line="389" column="9" selection-start-line="389" selection-start-column="9" selection-end-line="389" selection-end-column="9" />
+            <state relative-caret-position="237">
+              <caret line="221" column="92" lean-forward="true" selection-start-line="221" selection-start-column="92" selection-end-line="221" selection-end-column="92" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -48,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workdetail_mamamoo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="829">
-              <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
+            <state relative-caret-position="325">
+              <caret line="66" column="12" lean-forward="true" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -60,49 +136,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workdetail_onf.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="675">
+              <caret line="45" column="62" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workdetail_sf9.html">
+        <entry file="file://$PROJECT_DIR$/workdetail_sang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="339" selection-start-line="339" selection-end-line="339" />
+            <state relative-caret-position="600">
+              <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact.html">
+        <entry file="file://$PROJECT_DIR$/workdetail_who.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="102" selection-start-line="102" selection-end-line="138" selection-end-column="9" />
+            <state relative-caret-position="529">
+              <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/topbutton.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/workdetail_mgigs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="751">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
+        <entry file="file://$PROJECT_DIR$/workdetail_tn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="2238" lean-forward="true" selection-start-line="2238" selection-end-line="2238" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workdetail_hini.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="910">
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workdetail_jsh.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="857">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
             </state>
           </provider>
         </entry>
@@ -111,15 +200,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>about_tab</find>
-      <find>w1100</find>
-      <find>work_sec1</find>
-      <find>work_list</find>
-      <find>$.fn.fullpage</find>
-      <find>about css</find>
-      <find>about_sec3</find>
-      <find>about_sec4</find>
-      <find>95%</find>
       <find>.s1</find>
       <find>fp-tableCell</find>
       <find>탓</find>
@@ -141,6 +221,15 @@
       <find>footer</find>
       <find>footer_mid</find>
       <find>index.html</find>
+      <find>content_text</find>
+      <find>도미</find>
+      <find>title_text</find>
+      <find>title</find>
+      <find>환</find>
+      <find>상쾌환</find>
+      <find>상쾌</find>
+      <find>정승환</find>
+      <find>엔</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,7 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/workdetail_onf.html" />
         <option value="$PROJECT_DIR$/js/fullpage.js" />
         <option value="$PROJECT_DIR$/css/fullpage.css" />
         <option value="$PROJECT_DIR$/work_3d.html" />
@@ -157,12 +245,23 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/about_re.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/work_radio.html" />
-        <option value="$PROJECT_DIR$/workdetail_mamamoo.html" />
         <option value="$PROJECT_DIR$/workdetail_sf9.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/workdetail_onf.html" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/workdetail_mamamoo.html" />
+        <option value="$PROJECT_DIR$/workdetail_eos.html" />
+        <option value="$PROJECT_DIR$/workdetail_dominant.html" />
+        <option value="$PROJECT_DIR$/workdetail_sang.html" />
+        <option value="$PROJECT_DIR$/workdetail_who.html" />
+        <option value="$PROJECT_DIR$/workdetail_yanolja.html" />
+        <option value="$PROJECT_DIR$/workdetail_flac.html" />
+        <option value="$PROJECT_DIR$/workdetail_jsh.html" />
+        <option value="$PROJECT_DIR$/workdetail_tn.html" />
+        <option value="$PROJECT_DIR$/workdetail_hini.html" />
+        <option value="$PROJECT_DIR$/workdetail_mgigs.html" />
+        <option value="$PROJECT_DIR$/work_radio.html" />
       </list>
     </option>
   </component>
@@ -216,13 +315,13 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
@@ -253,7 +352,8 @@
       <workItem from="1621328946706" duration="56935000" />
       <workItem from="1623486336745" duration="14541000" />
       <workItem from="1624105301735" duration="29675000" />
-      <workItem from="1624592626381" duration="31924000" />
+      <workItem from="1624592626381" duration="35474000" />
+      <workItem from="1625377430719" duration="10900000" />
     </task>
     <task id="LOCAL-00001" summary="commit1">
       <created>1621491778730</created>
@@ -472,11 +572,25 @@
       <option name="project" value="LOCAL" />
       <updated>1624800751773</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="index.html 이름 변경 - 06.27">
+      <created>1624805331552</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1624805331552</updated>
+    </task>
+    <task id="LOCAL-00033" summary="index.html 이름 변경2 - 06.27">
+      <created>1624805387565</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1624805387565</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168702000" />
+    <option name="totallyTimeSpent" value="183152000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,8 +649,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="about 페이지 마마무 이미지 변경 0607_2" />
-    <MESSAGE value="about / work / contact 모든페이지 컬러 변경 _ 3" />
     <MESSAGE value="about / work / contact 모든페이지 컬러 변경 _ 4" />
     <MESSAGE value="about page design _ 0609" />
     <MESSAGE value="footer 리뉴얼 &amp; 메인화면 이미지 교체 _ 0609" />
@@ -560,40 +672,11 @@
     <MESSAGE value="main.css 삭제 - 06.26" />
     <MESSAGE value="address 오탈자 수정 - 06.27" />
     <MESSAGE value="푸터 전체 수정 - 06.27" />
-    <option name="LAST_COMMIT_MESSAGE" value="푸터 전체 수정 - 06.27" />
+    <MESSAGE value="index.html 이름 변경 - 06.27" />
+    <MESSAGE value="index.html 이름 변경2 - 06.27" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.html 이름 변경2 - 06.27" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/wow.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/img/work_thumb_1.png" />
-    <entry file="file://$PROJECT_DIR$/img/work_3d.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/img/main_sec4.png" />
-    <entry file="file://$PROJECT_DIR$/img/main_sec1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/project_sf9.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/about_title.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/about_production.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/about_img.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/about_2021.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -686,77 +769,15 @@
     <entry file="file://$PROJECT_DIR$/img/the1991_title.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/work_3d.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="48" column="6" lean-forward="true" selection-start-line="35" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/work_3d.html" />
     <entry file="file://$PROJECT_DIR$/img/work_mamamoo/mamamoo_sec2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/topbutton.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about_re.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="103" column="69" lean-forward="true" selection-start-line="103" selection-start-column="69" selection-end-line="103" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="2238" lean-forward="true" selection-start-line="2238" selection-end-line="2238" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work_radio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="389" column="9" selection-start-line="389" selection-start-column="9" selection-end-line="389" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workdetail_mamamoo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
-          <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workdetail_onf.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workdetail_sf9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html" />
+    <entry file="file://$PROJECT_DIR$/about_re.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1266">
+        <state relative-caret-position="600">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -766,15 +787,132 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
+        <state relative-caret-position="1530">
           <caret line="102" selection-start-line="102" selection-end-line="138" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/topbutton.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/about_2016.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="1540" lean-forward="true" selection-start-line="1540" selection-end-line="1540" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="339" selection-start-line="339" selection-end-line="339" />
+        <state relative-caret-position="344">
+          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_yanolja.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="75" selection-start-line="75" selection-end-line="89" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_flac.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_eos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="77" column="25" lean-forward="true" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_dominant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_tn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_sf9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_sang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_onf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="62" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_hini.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_jsh.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_who.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_mgigs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_mamamoo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="66" column="12" lean-forward="true" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work_radio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="221" column="92" lean-forward="true" selection-start-line="221" selection-start-column="92" selection-end-line="221" selection-end-column="92" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

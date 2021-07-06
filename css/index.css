@@ -1514,7 +1514,7 @@ a .screen img {
 .title_text {
     display: inline-block;
     width: 275px;
-    height: 150px;
+    height: 110px;
     color: #ffffff;
     font-size: 13pt;
     font-weight: 600;
@@ -1523,12 +1523,21 @@ a .screen img {
 .content_text {
     display: inline-block;
     width: 680px;
-    height: 150px;
+    height: 110px;
     color: #ffffff;
     font-size: 10pt;
     font-weight: 200;
 }
 
+
+.title_text2 {
+    display: inline-block;
+    width: fit-content;
+    height: 80px;
+    color: #ffffff;
+    font-size: 13pt;
+    font-weight: 600;
+}
 
 .back_btn {
     position: absolute;
