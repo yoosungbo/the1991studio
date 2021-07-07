@@ -790,6 +790,10 @@ a.u:hover {
     font-size: 50px !important
 }
 
+.fs55 {
+    font-size: 55px !important
+}
+
 .fs60 {
     font-size: 60px !important
 }
@@ -981,21 +985,15 @@ nav {
 }
 
 .s1 {
-    background-image: url('../img/main_sec2.jpeg');
-    background-repeat: repeat;
-    background-size: cover;
+    background-color: #0c0c0c;
 }
 
 .s2 {
-    background-image: url('../img/main_sec3.jpeg');
-    background-repeat: repeat;
-    background-size: cover;
+    background-color: #0c0c0c;
 }
 
 .s3 {
-    background-image: url('../img/main_sec4.jpeg');
-    background-repeat: repeat;
-    background-size: cover;
+    background-color: #0c0c0c;
 }
 
 .s4 {
@@ -1042,15 +1040,22 @@ nav {
     background-repeat: repeat;
 }
 
-
-.WWD {
-    position: absolute;
+.main_sec_center {
     display: block;
-    top: 200px;
     text-align: center;
-    width: 100%;
 }
 
+
+.main_obj {
+    display: inline-block;
+    position: relative;
+}
+
+.main_sectext {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+}
 
 .vr_text {
     margin-left: 60%;
