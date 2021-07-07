@@ -2,8 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33e6b9c2-7b5e-410a-b75c-f26453e7548a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_cello/cello_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_coziver/coziver_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_coziver/coziver_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_coziver/coziver_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_coziver/coziver_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_coziver/coziver_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_coziver/coziver_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_lotte/lotte_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_lotte/lotte_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_lotte/lotte_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_lotte/lotte_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_lotte/lotte_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_lotte/lotte_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_lotte/lotte_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_lotte/lotte_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_lotte/lotte_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_lotte/lotte_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_lotte/lotte_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_lotte/lotte_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_lotte/lotte_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_smc/smc_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_smc/smc_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_smc/smc_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_smc/smc_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_smc/smc_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_smc/smc_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_smc/smc_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_smc/smc_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_smc/smc_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_toktok/toktok_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_toktok/toktok_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_toktok/toktok_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_toktok/toktok_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_toktok/toktok_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_toktok/toktok_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_toktok/toktok_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_toktok/toktok_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_toktok/toktok_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_town/town_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_town/town_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_town/town_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_town/town_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_town/town_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_town/town_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_town/town_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_town/town_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_town/town_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_view/view_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_view/view_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_view/view_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_view/view_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_view/view_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_view/view_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_view/view_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_view/view_6.jp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_view/view_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_view/view_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/work_view/view_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workdetail_town.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workdetail_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +75,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="746">
@@ -26,6 +85,61 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workdetail_sang.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workdetail_view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workdetail_who.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="83" selection-start-line="83" selection-end-line="87" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workdetail_town.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workdetail_mgigs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="751">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/main_modeling.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/food-drink-16.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -103,6 +217,8 @@
         <option value="$PROJECT_DIR$/work_radio.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/workdetail_town.html" />
+        <option value="$PROJECT_DIR$/workdetail_view.html" />
       </list>
     </option>
   </component>
@@ -129,6 +245,11 @@
               <item name="the-1991" type="b2602c69:ProjectViewProjectNode" />
               <item name="the-1991" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="the-1991" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the-1991" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="the-1991" type="b2602c69:ProjectViewProjectNode" />
@@ -194,7 +315,7 @@
       <workItem from="1623486336745" duration="14541000" />
       <workItem from="1624105301735" duration="29675000" />
       <workItem from="1624592626381" duration="35474000" />
-      <workItem from="1625377430719" duration="14469000" />
+      <workItem from="1625377430719" duration="15244000" />
     </task>
     <task id="LOCAL-00001" summary="commit1">
       <created>1621491778730</created>
@@ -441,11 +562,18 @@
       <option name="project" value="LOCAL" />
       <updated>1625675046223</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="메인페이지 이미지 변 0708">
+      <created>1625675068923</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1625675068923</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186721000" />
+    <option name="totallyTimeSpent" value="187496000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,18 +640,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="메인페이지 이미지 변 0708" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/about_2021.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/about_vr_thumb.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/1991_bi_black.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/left.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/scroll_down.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -665,13 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workdetail_sang.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workdetail_onf.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -683,13 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="857">
           <caret line="94" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workdetail_who.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -720,13 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workdetail_mgigs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workdetail_sf9.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
@@ -741,6 +836,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/main_modeling.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/food-drink-16.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="746">
@@ -748,6 +849,41 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_mgigs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_town.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_sang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_who.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="83" selection-start-line="83" selection-end-line="87" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
         </state>
       </provider>
     </entry>
