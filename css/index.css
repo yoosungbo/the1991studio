@@ -1331,43 +1331,6 @@ input[id="about_tab04"]:checked ~ .con4 {
     transition: all 0.5s;
 }
 
-/*!* work css *!
-.work_bg_3d {
-    position: absolute;
-    background-image: url('../img/work_bg.png');
-    background-repeat: no-repeat;
-    width: 100%;
-    height: fit-content;
-}
-
-.work_area {
-    margin-top: 200px;
-    position: relative;
-    display: block;
-    width: 80%;
-    height: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.about_sec3 {
-    background-color: #e5e5e5;
-}
-
-.menu_list {
-    position: relative;
-    display: inline-block;
-    margin-right: 50px;
-    font-size: 30px;
-    font-weight: 600;
-}
-
-.work_ul {
-    color: #999999;
-}
-.work_ul a:focus {
-    color: black;
-}*/
 
 
 /* work_radio css */
@@ -1429,6 +1392,15 @@ input[id="work_tab03"]:checked ~ .con3 {
     display: block;
 }
 
+.bg_gradiant {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, #121212, transparent);
+}
 
 .work_list a{
     display: block;
@@ -1444,35 +1416,50 @@ a .screen {
 a .screen .top {
     position: absolute;
     left: 60px;
+    bottom: 110px;
     z-index: 2;
     color: #ffffff;
     transition: all .5s;
-    display: none;
 }
 
 a .screen .bottom {
      position: absolute;
      left: 60px;
-     z-index: 2;
+    bottom: 80px;
+    z-index: 2;
      color: #ffffff;
      transition: all .5s;
+}
+
+a .screen .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
     display: none;
- }
+    z-index: 3;
+}
 
 
 a .screen img {
     width: 100%;
 }
 
-
 .work_list a:hover .top {
     bottom: 110px;
-    display: block;
+    display: none;
     transition: all .5s;
 }
 
 .work_list a:hover .bottom {
     bottom: 80px;
+    display: none;
+    transition: all .5s;
+}
+
+.work_list a:hover .middle {
     display: block;
     transition: all .5s;
 }
@@ -1482,11 +1469,11 @@ a .screen img {
     content: '';
     display: block;
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, black, transparent);
+    background: rgba(0,0,0,.6);
     z-index: 1;
     opacity: 0;
     transition: all .3s;
@@ -1495,6 +1482,79 @@ a .screen img {
 .work_list a:hover .screen::after {
     opacity: 1;
 }
+
+
+/*여기서 부터의 내용은 호버 시 불투명한 그라데이션 박으로 리스트를 가리는 코드*/
+
+/*.work_list a{*/
+/*    display: block;*/
+/*    width: auto;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*a .screen {*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*a .screen .top {*/
+/*    position: absolute;*/
+/*    left: 60px;*/
+/*    z-index: 2;*/
+/*    color: #ffffff;*/
+/*    transition: all .5s;*/
+/*    display: none;*/
+/*}*/
+
+/*a .screen .bottom {*/
+/*    position: absolute;*/
+/*    left: 60px;*/
+/*    z-index: 2;*/
+/*    color: #ffffff;*/
+/*    transition: all .5s;*/
+/*    display: none;*/
+/*}*/
+
+
+/*a .screen img {*/
+/*    width: 100%;*/
+/*}*/
+
+
+/*.work_list a:hover .top {*/
+/*    bottom: 110px;*/
+/*    display: block;*/
+/*    transition: all .5s;*/
+/*}*/
+
+/*.work_list a:hover .bottom {*/
+/*    bottom: 80px;*/
+/*    display: block;*/
+/*    transition: all .5s;*/
+/*}*/
+
+
+/*.work_list a .screen::after {*/
+/*    content: '';*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background: linear-gradient(to top, black, transparent);*/
+/*    z-index: 1;*/
+/*    opacity: 0;*/
+/*    transition: all .3s;*/
+/*}*/
+
+/*.work_list a:hover .screen::after {*/
+/*    opacity: 1;*/
+/*}*/
+
+
+
+
 
 
 /* work detail css */
