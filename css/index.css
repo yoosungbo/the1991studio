@@ -1398,8 +1398,8 @@ input[id="work_tab03"]:checked ~ .con3 {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 50%;
-    background: linear-gradient(to top, #121212, transparent);
+    height: 60%;
+    background: linear-gradient(to top, #191919, transparent);
 }
 
 .work_list a{
@@ -1415,8 +1415,10 @@ a .screen {
 
 a .screen .top {
     position: absolute;
-    left: 60px;
-    bottom: 110px;
+    /*원래는 left: 60px*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 80px;
     z-index: 2;
     color: #ffffff;
     transition: all .5s;
@@ -1424,8 +1426,10 @@ a .screen .top {
 
 a .screen .bottom {
      position: absolute;
-     left: 60px;
-    bottom: 80px;
+     /*원래는 left: 60px*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 52px;
     z-index: 2;
      color: #ffffff;
      transition: all .5s;
@@ -1433,6 +1437,11 @@ a .screen .bottom {
 
 a .screen .middle {
     position: absolute;
+    width: 260px;
+    height: fit-content;
+    padding: 5px;
+    border: white 1px solid;
+    border-radius: 50px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1448,14 +1457,12 @@ a .screen img {
 }
 
 .work_list a:hover .top {
-    bottom: 110px;
-    display: none;
+    bottom: 180px;
     transition: all .5s;
 }
 
 .work_list a:hover .bottom {
-    bottom: 80px;
-    display: none;
+    bottom: 152px;
     transition: all .5s;
 }
 
@@ -1721,7 +1728,7 @@ a .screen img {
     position: relative;
     float: left;
     left: 0;
-    width: 380px;
+    width: 360px;
     height: 200px;
 }
 
