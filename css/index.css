@@ -723,6 +723,18 @@ a.u:hover {
 /* width,height는 각각 지정 */
 
 /* font size */
+.fs10 {
+    font-size: 10px !important
+}
+
+.fs11 {
+    font-size: 11px !important
+}
+
+.fs12 {
+    font-size: 12px !important
+}
+
 .fs13 {
     font-size: 13px !important
 }
@@ -1415,9 +1427,7 @@ a .screen {
 
 a .screen .top {
     position: absolute;
-    /*원래는 left: 60px*/
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 60px;
     bottom: 80px;
     z-index: 2;
     color: #ffffff;
@@ -1426,9 +1436,7 @@ a .screen .top {
 
 a .screen .bottom {
      position: absolute;
-     /*원래는 left: 60px*/
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 60px;
     bottom: 52px;
     z-index: 2;
      color: #ffffff;
@@ -1457,12 +1465,12 @@ a .screen img {
 }
 
 .work_list a:hover .top {
-    bottom: 180px;
+    bottom: 80px;
     transition: all .5s;
 }
 
 .work_list a:hover .bottom {
-    bottom: 152px;
+    bottom: 52px;
     transition: all .5s;
 }
 
