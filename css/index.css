@@ -15,7 +15,6 @@ body, form, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, fieldset, th
     margin: 0;
     padding: 0;
     font-family: "Noto Sans KR", "Malgun Gothic", "맑은 고딕", "Hiragino Sans GB", "Microsoft Yahei", "돋움", Dotum, "굴림", Gulim, "Apple Gothic", "Apple SD Gothic Neo", Sans-serif;
-    color: #666;
     font-size: 13px;
     font-weight: normal;
     overflow: auto !important;
@@ -1151,6 +1150,16 @@ nav {
     overflow: hidden;
 }
 
+.about_new_img {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    display: block;
+    right: 0;
+    overflow: hidden;
+}
+
 .about_sec2 {
     position: relative;
     display: block;
@@ -1625,10 +1634,10 @@ a .screen img {
     height: 40px;
     line-height: 33px;
     border: solid 1px white;
-    color: #ffffff;
     background-color: #0c0c0c;
     text-align: center;
     right: 0;
+    color: white;
 }
 
 .back_btn:hover {
