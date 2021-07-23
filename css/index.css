@@ -969,7 +969,6 @@ nav {
 .menutitle {
     float: right;
     margin-right: 50px;
-    letter-spacing: 3px;
 }
 
 .menutitle a:hover {
