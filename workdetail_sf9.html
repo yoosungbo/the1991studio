@@ -29,10 +29,33 @@
 
     </script>
 
+    <!--    topbutton script 내용-->
+    <script>
+        $(window).scroll(function() {
+            // top button controll
+            if ($(this).scrollTop() > 500) {
+                $('#topButton').fadeIn();
+            } else {
+                $('#topButton').fadeOut();
+            }
+        });
+
+        $(document).ready(function() {
+            // Top Button click event handler
+            $("#topButtonImg").click(function() {
+                $('html, body').animate({scrollTop:0}, '300');
+            });
+        });
+    </script>
+
     <link rel="stylesheet" href="css/index.css" />
 
 </head>
 <body class="bg_0c0c0c">
+
+<div id="topButton" style="cursor: pointer">
+    <img src="./img/topbutton.png" id="topButtonImg">
+</div>
 
 <div id="topmenu" class="nav">
     <div class="bi">
@@ -50,17 +73,34 @@
 </div>
 
 
-<section class="thumbnail_sec mb150">
-    <iframe width="960" height="540" src="https://www.youtube.com/embed/QUdZOrb55O0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    <div class="title_text mt20">
+<section class="thumbnail_sec">
+    <div class="fc_white fs22 fw600">
         VR Project - SF9
     </div>
+    <br />
+    <div class="title_text mt20">
+        Agency - KT Genie Music    </div>
     <div class="content_text mt20">
-        기존 VR 영상은 화질 개선 문제와 디바이스의 한계로 인해 제대로 된 퍼포먼스를 구현하지 못했습니다.<br />
-        THE 1991은 지니뮤직에서 개발한 'VR Album' 앱의 뛰어난 화질과 차별화된 기술력으로 고객들에게 가상현실에서 즐길 수 있는 컨텐츠의 방향을 제시합니다.<br />
-        <br />
-        무대연출 그리고 무대와 어우러지는 2D, 3D 그래픽을 활용함으로써 다이나믹한 공간의 변화를 보여주고, 공연에 시각적 재미를 더해 고객들에게 하나의 콘서트 이상의 감동과 차별화된 경험을 제공합니다.
+        지니뮤직의 2번째 VR-PROJECT 가수 SF9 VP 프로젝트를 진행했습니다. <br />
+        온앤오프의 전곡 중 5곡을 선별해 우주와 우주선 메카닉 등 빛과 메탈 재질을 강조해<br />
+        남자다음과 곡의 신디팝한 느낌의 사운드를 살려주며 온앤오프의 신디사이저한 컨셉을 극대화했습니다.
     </div>
-    <div class="back_btn mt10">
+    <iframe width="960" height="540" src="https://www.youtube.com/embed/irfZQ3yFJBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<section class="thumbnail_sec2 mb150">
+    <img width="960px" height="auto" src="./img/work_who/who_1.jpg">
+    <img width="960px" height="auto" src="./img/work_who/who_2.jpg">
+    <img width="960px" height="auto" src="./img/work_who/who_3.jpg">
+    <img width="960px" height="auto" src="./img/work_who/who_4.jpg">
+    <img width="960px" height="auto" src="./img/work_who/who_5.jpg">
+    <img width="960px" height="auto" src="./img/work_who/who_6.jpg">
+    <img width="960px" height="auto" src="./img/work_who/who_7.jpg">
+    <img width="960px" height="auto" src="./img/work_who/who_8.jpg">
+    <img width="960px" height="auto" src="./img/work_who/who_9.jpg">
+    <img width="960px" height="auto" src="./img/work_who/who_10.jpg">
+
+    <div width="960px" height="auto" class="back_btn mt10">
         <button class="fs15 fw400 tc" onclick="history.back()">뒤로가기</button>
     </div>
 </section>
