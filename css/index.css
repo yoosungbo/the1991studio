@@ -1474,11 +1474,11 @@ a .screen .middle {
 
 a .screen img {
     width: 100%;
-    transition: all .3s linear;}
+    transition: all .1s linear;}
 
 a .screen:hover img{
     transform: scale(1.1);
-    transition: all .3s linear;
+    transition: all .1s linear;
     overflow: hidden; !important;
 }
 
