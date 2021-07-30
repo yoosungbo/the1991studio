@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33e6b9c2-7b5e-410a-b75c-f26453e7548a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/work_radio.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work_radio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="264" column="78" lean-forward="true" selection-start-line="264" selection-start-column="78" selection-end-line="264" selection-end-column="78" />
+            <state relative-caret-position="271">
+              <caret line="297" column="59" selection-start-line="297" selection-start-column="59" selection-end-line="297" selection-end-column="59" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#3898#3904#0" expanded="true" />
@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workdetail_onf.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="113" column="45" lean-forward="true" selection-end-line="148" selection-end-column="7" />
+            <state relative-caret-position="193">
+              <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -60,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workdetail_sf9.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
+            <state relative-caret-position="-131">
               <caret line="85" column="61" lean-forward="true" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
             </state>
           </provider>
@@ -69,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="1483" lean-forward="true" selection-start-line="1483" selection-end-line="1483" />
+            <state relative-caret-position="418">
+              <caret line="1487" column="17" lean-forward="true" selection-start-line="1487" selection-start-column="17" selection-end-line="1487" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -137,8 +137,8 @@
       <find>1.2</find>
       <find>view more</find>
       <find>상쾌환</find>
-      <find>screen</find>
       <find>테일</find>
+      <find>screen</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,10 +176,10 @@
         <option value="$PROJECT_DIR$/workdetail_sang.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/work_radio.html" />
         <option value="$PROJECT_DIR$/workdetail_onf.html" />
         <option value="$PROJECT_DIR$/workdetail_sf9.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/work_radio.html" />
       </list>
     </option>
   </component>
@@ -273,21 +273,7 @@
       <workItem from="1627391965342" duration="4530000" />
       <workItem from="1627398677209" duration="186000" />
       <workItem from="1627399054272" duration="256000" />
-      <workItem from="1627568073547" duration="3239000" />
-    </task>
-    <task id="LOCAL-00005" summary="main 페이지 이미지 적용 0602_3">
-      <created>1622643905001</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1622643905001</updated>
-    </task>
-    <task id="LOCAL-00006" summary="main 페이지 이미지 적용 0602_4">
-      <created>1622643974624</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1622643974624</updated>
+      <workItem from="1627568073547" duration="4199000" />
     </task>
     <task id="LOCAL-00007" summary="main 페이지 마마무 이미지 변경 0603">
       <created>1622706447062</created>
@@ -618,11 +604,25 @@
       <option name="project" value="LOCAL" />
       <updated>1627644239763</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="0730 _ work 페이지 딤처리 제거">
+      <created>1627644824159</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1627644824159</updated>
+    </task>
+    <task id="LOCAL-00055" summary="0730 _ work 페이지 디테일 수정">
+      <created>1627646209550</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1627646209550</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220642000" />
+    <option name="totallyTimeSpent" value="221602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,8 +661,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="https 전체 수정 - 06.26" />
-    <MESSAGE value="main.css 삭제 - 06.26" />
     <MESSAGE value="address 오탈자 수정 - 06.27" />
     <MESSAGE value="푸터 전체 수정 - 06.27" />
     <MESSAGE value="index.html 이름 변경 - 06.27" />
@@ -686,7 +684,9 @@
     <MESSAGE value="0728 _ work 페이지 디테일 수정" />
     <MESSAGE value="0730 _ work 페이지 오류 수정" />
     <MESSAGE value="0730 _ work 페이지 스르륵 속도 조절" />
-    <option name="LAST_COMMIT_MESSAGE" value="0730 _ work 페이지 스르륵 속도 조절" />
+    <MESSAGE value="0730 _ work 페이지 딤처리 제거" />
+    <MESSAGE value="0730 _ work 페이지 디테일 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="0730 _ work 페이지 디테일 수정" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/main_mamamoo_m.jpg">
@@ -893,24 +893,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workdetail_onf.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="113" column="45" lean-forward="true" selection-end-line="148" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workdetail_smc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="99" column="68" selection-start-line="99" selection-start-column="68" selection-end-line="99" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workdetail_sf9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="85" column="61" lean-forward="true" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -938,20 +924,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="1483" lean-forward="true" selection-start-line="1483" selection-end-line="1483" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_onf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="1487" column="17" lean-forward="true" selection-start-line="1487" selection-start-column="17" selection-end-line="1487" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workdetail_sf9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="85" column="61" lean-forward="true" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/work_radio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="264" column="78" lean-forward="true" selection-start-line="264" selection-start-column="78" selection-end-line="264" selection-end-column="78" />
+        <state relative-caret-position="271">
+          <caret line="297" column="59" selection-start-line="297" selection-start-column="59" selection-end-line="297" selection-end-column="59" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#3898#3904#0" expanded="true" />
