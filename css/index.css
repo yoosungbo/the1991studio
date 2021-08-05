@@ -1127,15 +1127,11 @@ nav {
 
 /*about_ful css*/
 
-.conbox_about_full {
-    width: 100%;
-    height: 600px;
-    background: #0c0c0c;
-    margin: 0 auto;
-    display: none;
-}
-
 .tab_content_full {
+    display: block;
+    width: 100%;
+    height: 400px;
+    background: #3a6ac2;
     text-align: center;
 }
 
@@ -1143,40 +1139,44 @@ nav {
     display: none
 }
 .tab_content_full input[type="radio"] + label {
-    display: inline-block;
-    padding: 10px;
-    margin: 0 auto;
-    background: #0c0c0c;
+    display: block;
+    width: 200px;
+    background: red;
     color: #999;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
-    font-weight: 700;
-    text-align: center;
+    font-weight: 600;
+    text-align: left;
 }
 
 .tab_content_full input[type="radio"]:checked +label {
-    background: #0c0c0c;
+    background: blue;
     color: #ffffff;
-    text-decoration: underline white;
 }
 
-.tab_content_full input[id="about_tab01_full"]:checked ~ .con1 {
+.tab_content_full input[id="about_tab01_full"]:checked ~ .ton1 {
     display: block;
 }
 
-.tab_content_full input[id="about_tab02_full"]:checked ~ .con2 {
+.tab_content_full input[id="about_tab02_full"]:checked ~ .ton2 {
     display: block;
 }
 
-.tab_content_full input[id="about_tab03_full"]:checked ~ .con3 {
+.tab_content_full input[id="about_tab03_full"]:checked ~ .ton3 {
     display: block;
 }
 
-.tab_content_full input[id="about_tab04_full"]:checked ~ .con4 {
+.tab_content_full input[id="about_tab04_full"]:checked ~ .ton4 {
     display: block;
 }
 
-
+.conbox_about_full {
+    width: 100%;
+    height: fit-content;
+    background: slateblue;
+    display: none;
+    text-align: left;
+}
 
 /* about css */
 .about_sec1 {
@@ -1245,7 +1245,7 @@ input[type="radio"] + label {
     font-weight: 700;
 }
 
-input[type="radio"]:checked +label {
+.tab_content input[type="radio"]:checked +label {
     background: #0c0c0c;
     color: #ffffff;
     text-decoration: underline white;
