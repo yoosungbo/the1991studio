@@ -1124,6 +1124,57 @@ nav {
     text-align: center;
 }
 
+/*about_ful css*/
+
+.conbox_about_full {
+    width: 100%;
+    height: 600px;
+    background: #0c0c0c;
+    margin: 0 auto;
+    display: none;
+}
+
+.tab_content_full {
+    text-align: center;
+}
+
+.tab_content_full input[type="radio"] {
+    display: none
+}
+.tab_content_full input[type="radio"] + label {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 auto;
+    background: #0c0c0c;
+    color: #999;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 700;
+    text-align: center;
+}
+
+.tab_content_full input[type="radio"]:checked +label {
+    background: #0c0c0c;
+    color: #ffffff;
+    text-decoration: underline white;
+}
+
+.tab_content_full input[id="about_tab01_full"]:checked ~ .con1 {
+    display: block;
+}
+
+.tab_content_full input[id="about_tab02_full"]:checked ~ .con2 {
+    display: block;
+}
+
+.tab_content_full input[id="about_tab03_full"]:checked ~ .con3 {
+    display: block;
+}
+
+.tab_content_full input[id="about_tab04_full"]:checked ~ .con4 {
+    display: block;
+}
+
 
 
 /* about css */
@@ -1606,6 +1657,7 @@ a .screen:hover img{
     position: relative;
     display: block;
     width: 960px;
+    height: 540px;
     height: fit-content;
     margin: 0 auto;
     margin-top: 80px;
@@ -1613,20 +1665,20 @@ a .screen:hover img{
 
 .title_text {
     display: inline-block;
-    width: 275px;
-    height: 110px;
+    top: 0;
+    width: 295px;
+    height: 100px;
     color: #ffffff;
-    font-size: 13pt;
-    font-weight: 600;
+    font-size: 12pt;
 }
 
 .content_text {
     display: inline-block;
-    width: 680px;
-    height: 110px;
+    top: 0;
+    width: 660px;
+    height: 100px;
     color: #ffffff;
-    font-size: 10pt;
-    font-weight: 200;
+    font-size: 11pt;
 }
 
 
