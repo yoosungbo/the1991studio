@@ -327,7 +327,7 @@ button::-moz-focus-inner {
 
 /* link */
 a {
-    color: #c9c9c9
+    color: #ffffff;
 }
 
 a:hover {
@@ -509,31 +509,31 @@ a.u:hover {
 }
 
 .mb50 {
-    margin-bottom: 50px !important
+    margin-bottom: 50px
 }
 
 
 .mb80 {
-    margin-bottom: 80px !important
+    margin-bottom: 80px
 }
 
 .mb100 {
-    margin-bottom: 100px !important
+    margin-bottom: 100px
 }
 
 
 .mb120 {
-    margin-bottom: 120px !important
+    margin-bottom: 120px
 }
 
 
 .mb150 {
-    margin-bottom: 150px !important
+    margin-bottom: 150px
 }
 
 
 .mb180 {
-    margin-bottom: 180px !important
+    margin-bottom: 180px
 }
 
 /* padding */
@@ -542,11 +542,11 @@ a.u:hover {
 }
 
 .pd5 {
-    padding: 5px;
+    padding: 5px
 }
 
 .pd10 {
-    padding: 10px;
+    padding: 10px
 }
 
 .pd60 {
@@ -554,7 +554,7 @@ a.u:hover {
 }
 
 .pd0 {
-    padding: 0 !important
+    padding: 0
 }
 
 .pd30 {
@@ -562,7 +562,7 @@ a.u:hover {
 }
 
 .pr0 {
-    padding-right: 0 !important
+    padding-right: 0
 }
 
 .pr5 {
@@ -578,19 +578,19 @@ a.u:hover {
 }
 
 .pb0 {
-    padding-bottom: 0 !important
+    padding-bottom: 0
 }
 
 .pb10 {
-    padding-bottom: 10px !important
+    padding-bottom: 10px
 }
 
 .pb15 {
-    padding-bottom: 15px !important
+    padding-bottom: 15px
 }
 
 .pb17 {
-    padding-bottom: 17px !important
+    padding-bottom: 17px
 }
 
 .pb20 {
@@ -634,7 +634,7 @@ a.u:hover {
 }
 
 .pl20 {
-    padding-left: 20px !important
+    padding-left: 20px
 }
 
 .pl25 {
@@ -656,11 +656,11 @@ a.u:hover {
 
 
 .pt0 {
-    padding-top: 0 !important
+    padding-top: 0
 }
 
 .pt10 {
-    padding-top: 10px !important
+    padding-top: 10px
 }
 
 .pt15 {
@@ -672,39 +672,39 @@ a.u:hover {
 }
 
 .pt29 {
-    padding-top: 29px !important
+    padding-top: 29px
 }
 
 .pt30 {
-    padding-top: 30px !important
+    padding-top: 30px
 }
 
 .pt40 {
-    padding-top: 40px !important
+    padding-top: 40px
 }
 
 .pt50 {
-    padding-top: 50px !important
+    padding-top: 50px
 }
 
 .pt60 {
-    padding-top: 60px !important
+    padding-top: 60px
 }
 
 .pt65 {
-    padding-top: 60px !important
+    padding-top: 60px
 }
 
 .pt70 {
-    padding-top: 70px !important
+    padding-top: 70px
 }
 
 .pt100 {
-    padding-top: 100px !important
+    padding-top: 100px
 }
 
 .pt150 {
-    padding-top: 150px !important
+    padding-top: 150px
 }
 
 /* padding2 */
@@ -836,43 +836,43 @@ a.u:hover {
 
 /* font color */
 .fc_black {
-    color: #222 !important
+    color: #222
 }
 
 .fc_999 {
-    color: #999 !important
+    color: #999
 }
 
 .fc_navy {
-    color: #20245a !important
+    color: #20245a
 }
 
 .fc_blue {
-    color: #1e4ba4 !important
+    color: #1e4ba4
 }
 
 .fc_red {
-    color: #d03543 !important
+    color: #d03543
 }
 
 .fc_pink {
-    color: #f91f43 !important
+    color: #f91f43
 }
 
 .fc_yellow {
-    color: #fffa72 !important
+    color: #fffa72
 }
 
 .fc_gray {
-    color: #828282 !important
+    color: #828282
 }
 
 .fc_lightgray {
-    color: #c1c1c1 !important
+    color: #c1c1c1
 }
 
 .fc_white {
-    color: #ffffff !important
+    color: #ffffff
 }
 
 /* align */
@@ -957,7 +957,7 @@ nav {
 #topmenu ul li {
     list-style: none;
     display: inline-block;
-    color: #f9f9f9;
+    color: #ffffff;
     float: left;
     line-height: 32px;
     vertical-align: middle;
@@ -972,8 +972,9 @@ nav {
 }
 
 .menutitle a:hover {
-    color: #ffffff;
+    color: lightgrey;
     font-weight: 400;
+    transition: all 0.2s;
 }
 
 
@@ -1778,13 +1779,14 @@ a .screen:hover img{
 }
 
 .main_footer a{
-    color: lightgrey;
-}
-
-.main_footer a:hover {
     color: white;
 }
-
+F
+.main_footer a:hover {
+    color: lightgrey;
+    transition: all 0.3s;
+}
+F
 .footer_area {
     display: block;
     position: relative;
@@ -1830,9 +1832,8 @@ a .screen:hover img{
 }
 
 .footer_menu a:hover {
-    color: white;
-    font-weight: 600;
-    text-decoration: underline;
+    color: lightgrey;
+    transition: all 0.3s;
 }
 
 /*test*/
