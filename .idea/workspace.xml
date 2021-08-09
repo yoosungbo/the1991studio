@@ -3,29 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="33e6b9c2-7b5e-410a-b75c-f26453e7548a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_full.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_full.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/work_radio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_cello.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_cello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_corziver.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_corziver.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_dominant.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_dominant.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_eos.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_eos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_flac.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_flac.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_hini.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_hini.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_jsh.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_jsh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_lotte.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_lotte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_mamamoo.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_mamamoo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_mgigs.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_mgigs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_onf.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_onf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_sang.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_sang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_sf9.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_sf9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_smc.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_smc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_tn.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_tn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_town.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_town.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_who.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_who.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_yanolja.html" beforeDir="false" afterPath="$PROJECT_DIR$/workdetail_yanolja.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -116,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/workdetail_yanolja.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="795">
+              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
               <folding>
                 <element signature="e#3346#3352#0" expanded="true" />
               </folding>
@@ -214,9 +191,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1440" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="180" />
+    <option name="y" value="134" />
+    <option name="width" value="1080" />
+    <option name="height" value="657" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -307,14 +285,7 @@
       <workItem from="1627568073547" duration="10444000" />
       <workItem from="1628125449731" duration="16201000" />
       <workItem from="1628267395537" duration="848000" />
-      <workItem from="1628269689757" duration="1477000" />
-    </task>
-    <task id="LOCAL-00012" summary="about page design _ 0609">
-      <created>1623168674561</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1623168674561</updated>
+      <workItem from="1628269689757" duration="2422000" />
     </task>
     <task id="LOCAL-00013" summary="footer 리뉴얼 &amp; 메인화면 이미지 교체 _ 0609">
       <created>1623176105717</created>
@@ -652,11 +623,18 @@
       <option name="project" value="LOCAL" />
       <updated>1628145998697</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="0807&#10;1. work_detail mb150 오류 수정&#10;2. footer_right 불투명도 조절&#10;3. sf9, mamamoo, onf 상세페이지 수정&#10;4. contact focus outline none으로 변경">
+      <created>1628325043112</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1628325043113</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246373000" />
+    <option name="totallyTimeSpent" value="247318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,7 +673,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="메인페이지 이미지 변 0708" />
     <MESSAGE value="상세페이지 2개 추가, 타운스테일 / 더뷰라운지 0708" />
     <MESSAGE value="배경화면 맞추기" />
     <MESSAGE value="work-radio 그라디언트 추가" />
@@ -720,7 +697,8 @@
     <MESSAGE value="0805 - gnb 및 Footer 스타일 변경" />
     <MESSAGE value="0805 - Main 네비게이션 색상 및 크기 변경 완료" />
     <MESSAGE value="0805 - Main 네비게이션 색상 및 크기 변경 완료 5.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="0805 - Main 네비게이션 색상 및 크기 변경 완료 5.5" />
+    <MESSAGE value="0807&#10;1. work_detail mb150 오류 수정&#10;2. footer_right 불투명도 조절&#10;3. sf9, mamamoo, onf 상세페이지 수정&#10;4. contact focus outline none으로 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="0807&#10;1. work_detail mb150 오류 수정&#10;2. footer_right 불투명도 조절&#10;3. sf9, mamamoo, onf 상세페이지 수정&#10;4. contact focus outline none으로 변경" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/main_sec5_text.png">
@@ -991,8 +969,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/workdetail_yanolja.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="795">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
           <folding>
             <element signature="e#3346#3352#0" expanded="true" />
           </folding>
