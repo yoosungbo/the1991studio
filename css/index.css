@@ -17,10 +17,20 @@ body, form, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, fieldset, th
     font-family: "Noto Sans KR", "Malgun Gothic", "맑은 고딕", "Hiragino Sans GB", "Microsoft Yahei", "돋움", Dotum, "굴림", Gulim, "Apple Gothic", "Apple SD Gothic Neo", Sans-serif;
     font-size: 13px;
     font-weight: normal;
-    overflow: auto
+    overflow: auto;
+}
+
+.font-montserrat {
+    font-family: Montserrat;
+!important;
 }
 
 ::-webkit-scrollbar { display: none; }
+
+.no-drag {
+    -webkit-user-drag: none;
+}
+
 
 a {
     text-decoration: none
@@ -413,6 +423,13 @@ a.u:hover {
     margin-top: 200px;
 }
 
+.mt250 {
+    margin-top: 250px;
+}
+
+.mt300 {
+    margin-top: 300px;
+}
 
 .mr0 {
     margin-right: 0 !important
@@ -466,6 +483,10 @@ a.u:hover {
 
 .ml10 {
     margin-left: 10px
+}
+
+.ml10p {
+    margin-left: 10%
 }
 
 .ml15 {
@@ -801,6 +822,12 @@ a.u:hover {
     font-size: 35px !important
 }
 
+.fs40 {
+    font-size: 40px !important
+}
+
+
+
 .fs45 {
     font-size: 45px !important
 }
@@ -822,6 +849,12 @@ a.u:hover {
 }
 
 /*font weight*/
+
+.fw100 {
+    font-weight: 100;
+}
+
+
 .fw200 {
     font-weight: 200;
 }
@@ -981,7 +1014,7 @@ nav {
 
 .menutitle a:hover {
     color: lightgrey;
-    font-weight: 400;
+    font-weight: 500;
     transition: all 0.2s;
 }
 
@@ -1038,7 +1071,6 @@ nav {
 
 .sec_title {
     display: block;
-    position: absolute;
     margin-left: 10%;
 }
 
@@ -1202,7 +1234,7 @@ nav {
 .about_sec1 {
     position: relative;
     display: block;
-    height: 550px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1234,10 +1266,37 @@ nav {
 .about_sec2 {
     position: relative;
     display: block;
-    height: fit-content;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
 }
+
+.arrow_new {
+    position: absolute;
+    left: 410px;
+    top: 260px;
+}
+
+.about_sec3 {
+    position: relative;
+    display: block;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_text_left {
+    position: relative;
+    display: inline-block;
+}
+
+.about_text_right {
+    position: relative;
+    display: inline-block;
+    margin-left: 180px;
+}
+
+
 
 .about_sec4 {
     display: none;
@@ -1466,7 +1525,7 @@ nav {
 .work_sec1 .tab_content input[type="radio"]:checked + label {
     background: #0c0c0c;
     color: #ffffff;
-    text-decoration: underline white;
+    text-decoration: none;
 }
 
 
@@ -1811,27 +1870,36 @@ a .screen:hover img{
     display: block;
     position: relative;
     width: 80%;
-    height: 300px;
+    height: 200px;
     margin: 0 auto;
     background: #0c0c0c;
 }
 
-.footer_left {
+.footer_1 {
     display: block;
     position: relative;
     float: left;
     left: 0;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 100px;
 }
 
-.footer_middle {
+.footer_2 {
     display: block;
     position: relative;
     float: left;
     left: 0;
-    width: 360px;
-    height: 200px;
+    width: 230px;
+    height: 100px;
+}
+
+.footer_3 {
+    display: block;
+    position: relative;
+    float: left;
+    left: 0;
+    width: 350px;
+    height: 100px;
 }
 
 .footer_right {
@@ -1839,10 +1907,10 @@ a .screen:hover img{
     position: relative;
     float: right;
     right: 0;
-    width: 180px;
-    height: 200px;
+    width: 280px;
+    height: 100px;
     text-align: right;
-    opacity: .15
+    opacity: .8
 }
 
 .footer_line {
