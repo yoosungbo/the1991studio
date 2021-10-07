@@ -1001,6 +1001,7 @@ nav {
     position: fixed;
     top: 40px;
     z-index: 10001;
+    transition: all 0.5s;
 }
 
 .nav {
@@ -1008,6 +1009,7 @@ nav {
     position: absolute;
     top: 40px;
     z-index: 10001;
+    transition: all 0.5s;
 }
 
 
@@ -1019,6 +1021,7 @@ nav {
 #topmenu {
     height: 40px;
     width: 100%;
+    transition: all 0.5s;
 }
 
 #topmenu ul li {
@@ -1030,18 +1033,20 @@ nav {
     vertical-align: middle;
     text-align: center;
     font-size: 11pt;
+    transition: all 0.5s;
 }
 
 
 .menutitle {
     float: right;
     margin-right: 50px;
+    transition: all 0.5s;
 }
 
 .menutitle a:hover {
-    color: lightgrey;
+    color: #828282;
     font-weight: 500;
-    transition: all 0.2s;
+    transition: all 0.5s;
 }
 
 
