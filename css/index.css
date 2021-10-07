@@ -916,6 +916,10 @@ a.u:hover {
     color: #ffffff
 }
 
+.fc_ccc {
+    color: #cccccc !important;
+}
+
 /* align */
 .flo_r {
     float: right;
