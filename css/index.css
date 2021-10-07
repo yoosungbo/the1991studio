@@ -489,6 +489,14 @@ a.u:hover {
     margin-left: 10%
 }
 
+.ml15p {
+    margin-left: 15%
+}
+
+.ml20p {
+    margin-left: 20%
+}
+
 .ml15 {
     margin-left: 15px
 }
@@ -1277,7 +1285,7 @@ nav {
 
 .arrow_new {
     position: absolute;
-    left: 410px;
+    left: 540px;
     top: 260px;
 }
 
