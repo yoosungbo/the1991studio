@@ -870,6 +870,33 @@ a.u:hover {
     font-size: 70px !important
 }
 
+.fs100 {
+    font-size: 100px !important
+}
+
+.fs120 {
+    font-size: 120px !important
+}
+
+
+.fs135 {
+    font-size: 135px !important
+}
+
+
+.fs140 {
+    font-size: 140px !important
+}
+
+
+.fs150 {
+    font-size: 150px !important
+}
+
+.lh150 {
+    line-height: 150px;
+}
+
 /*font weight*/
 
 .fw100 {
@@ -896,6 +923,21 @@ a.u:hover {
 .fw600 {
     font-weight: 600;
 }
+
+.fw700 {
+    font-weight: 700;
+}
+
+.fw800 {
+    font-weight: 800;
+}
+
+
+.fw900 {
+    font-weight: 900;
+}
+
+
 
 /* font color */
 .fc_black {
@@ -940,6 +982,12 @@ a.u:hover {
 
 .fc_ccc {
     color: #cccccc !important;
+}
+
+.fc_outline {
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
 }
 
 /* align */
@@ -1021,7 +1069,6 @@ nav {
 #topmenu {
     height: 40px;
     width: 100%;
-    transition: all 0.5s;
 }
 
 #topmenu ul li {
@@ -1033,14 +1080,12 @@ nav {
     vertical-align: middle;
     text-align: center;
     font-size: 11pt;
-    transition: all 0.5s;
 }
 
 
 .menutitle {
     float: right;
     margin-right: 50px;
-    transition: all 0.5s;
 }
 
 .menutitle a:hover {
@@ -1302,10 +1347,55 @@ nav {
     margin-right: auto;
 }
 
-.arrow_new {
+.hover_line:hover {
+    text-decoration: underline white;
+    transition: all 1s;
+}
+
+/*왼쪽에서 오른쪽으로 이동하는 에니메이션*/
+.to-right-underline {
+    position: relative;
+}
+
+.to-right-underline:after {
+    content: "";
     position: absolute;
-    left: 540px;
-    top: 260px;
+    left: 0;
+    bottom: 0px;
+    width: 0px;
+    height: 4.5px;
+    margin: 5px 0 0;
+    transition: all 0.4s ease-in-out;
+    transition-duration: 0.4s;
+    opacity: 0;
+    background-color: white;
+}
+
+.to-right-underline:hover:after {
+    width: 100%;
+    opacity: 1;
+}
+
+/*왼쪽에서 오른쪽으로 이동하는 에니메이션:끝*/
+
+.arrow_new {
+    height: 100px;
+    width: 320px;
+    padding-left: 40px;
+    position: absolute;
+    z-index: 1005;
+    left: 820px;
+    top: 300px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.arrow_new:hover {
+    position: absolute;
+    z-index: 1005;
+    left: 900px;
+    top: 300px;
+    transition: all 0.5s ease-in-out;
 }
 
 .about_sec3 {
