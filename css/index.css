@@ -1049,7 +1049,7 @@ nav {
     position: fixed;
     top: 40px;
     z-index: 10001;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .nav {
@@ -1057,7 +1057,7 @@ nav {
     position: absolute;
     top: 40px;
     z-index: 10001;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 
@@ -1091,7 +1091,7 @@ nav {
 .menutitle a:hover {
     color: #828282;
     font-weight: 500;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 

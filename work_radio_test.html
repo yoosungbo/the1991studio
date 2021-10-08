@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A=="
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
+    <script src="js/wow.min.js"></script>
+    <script>
+        var wow = new WOW(
+            {
+                boxClass: 'wow',      // animated element css class (default is wow)
+                animateClass: 'animate__animated', // animation css class (default is animated)
+                offset: 200,          // distance to the element when triggering the animation (default is 0)
+                mobile: true,       // trigger animations on mobile devices (default is true)
+                live: true,       // act on asynchronously loaded content (default is true)
+                callback: function (box) {
+                    // the callback is fired every time an animation is started
+                    // the argument that is passed in is the DOM node being animated
+                },
+                scrollContainer: null,    // optional scroll container selector, otherwise use window,
+                resetAnimation: true,     // reset animation on end (default is true)
+            }
+        );
+        wow.init();
+
+    </script>
+
+    <!--    topbutton script 내용-->
+    <script>
+        $(window).scroll(function () {
+            // top button controll
+            if ($(this).scrollTop() > 500) {
+                $('#topButton').fadeIn();
+            } else {
+                $('#topButton').fadeOut();
+            }
+        });
+
+        $(document).ready(function () {
+            // Top Button click event handler
+            $("#topButtonImg").click(function () {
+                $('html, body').animate({scrollTop: 0}, '300');
+            });
+        });
+    </script>
+
+
+    <meta charset="UTF-8">
+    <title>1991 Work</title>
+    <link href="css/index.css" rel="stylesheet"/>
+</head>
+
+<body class="bg_0c0c0c">
+
+<div id="topButton" style="cursor: pointer">
+    <img id="topButtonImg" src="./img/topbutton.png">
+</div>
+
+
+<div class="nav" id="topmenu">
+    <div class="bi">
+        <a href="index.html">
+            <img alt="bi_img" height="32px" src="./img/1991_bi.png"/>
+        </a>
+    </div>
+    <div class="menutitle">
+        <ul>
+            <li><a class="menuLink fw500 font-montserrat" href="about_new.html">ABOUT</a></li>
+            <li><a class="menuLink fw500 ml40 font-montserrat" href="work_radio.html">WORK</a></li>
+            <li><a class="menuLink fw500 ml40 font-montserrat" href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<section class="work_sec1">
+    <div class="tab_content font-montserrat">
+        <input checked id="work_tab01" name="tabmenu" type="radio">
+        <label for="work_tab01">ALL</label>
+
+        <input id="work_tab02" name="tabmenu" type="radio">
+        <label for="work_tab02">3D</label>
+
+        <input id="work_tab03" name="tabmenu" type="radio">
+        <label for="work_tab03">2D</label>
+
+
+        <div class="conbox_work con1">
+            <div class="work_list">
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_onf.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600 font-montserrat">VP CONCERT ONF</div>
+                            <div class="bottom fs16 fw300">지니뮤직, <span class="font-montserrat">ONF</span>와 함께한 프로젝트입니다.
+                            </div>
+                            <img alt="온앤오프 썸네일" src="./img/work_thumb_23.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_sf9.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600 font-montserrat">VP CONCERT SF9</div>
+                            <div class="bottom fs17 fw300">지니뮤직, <span class="font-montserrat">SF9</span>과 함께한 프로젝트입니다.
+                            </div>
+                            <img alt="에스에프나인 썸네일" src="./img/work_thumb_22.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_mamamoo.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600 font-montserrat">VP CONCERT MAMAMOO</div>
+                            <div class="bottom fs17 fw300">지니뮤직, <span class="font-montserrat fw400">MAMAMOO</span>와 함께한
+                                프로젝트입니다.
+                            </div>
+                            <img alt="마마무 썸네일" src="./img/work_thumb_21.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_tn.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600">동서 '맑은티엔' 애니메이션 프로젝트</div>
+                            <div class="bottom fs16 fw300">동서식품과 함께한 프로젝트입니다.</div>
+                            <img alt="맑은티엔 썸네일" src="./img/work_thumb_2.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_yanolja.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600">야놀자 광고 메이킹 필름</div>
+                            <div class="bottom fs16 fw300">야놀자와 배우 육성재 함께한 프로젝트입니다.</div>
+                            <!--                            <div class="middle fs30 fw300">View More</div>-->
+                            <img alt="야놀자 썸네일" src="./img/work_thumb_8.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_sang.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600">상쾌환 광고 메이킹 필름</div>
+                            <div class="bottom fs16 fw300">상쾌환과 배와우 혜리와 함께한 프로젝트입니다.</div>
+                            <!--                            <div class="middle fs30 fw300">View More</div>-->
+                            <img alt="상쾌한 썸네일" src="./img/work_sang/sang_8.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_mgigs.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600">엠넷닷컴 <span class="font-montserrat">'MIGIS'</span> 프로젝트</div>
+                            <div class="bottom fs16 fw300"><span class="font-montserrat">CJE&N, Mnet</span>닷컴과 함께한
+                                프로젝트입니다.
+                            </div>
+                            <!--                            <div class="middle fs30 fw300">View More</div>-->
+                            <img alt="엠넷migis 썸네일" src="./img/work_mgigs/mgigs_1.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_who.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600"><span class="font-montserrat">WHO</span> 단편 애니메이션</div>
+                            <div class="bottom fs16 fw300">부천 만화 영상 진흥원에서 진행한 프로젝트입니다.</div>
+                            <img alt="who 썸네일" src="./img/work_who/who_3.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_jsh.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600">정승환 팬미팅 '나만 봄' 홍보 영상</div>
+                            <div class="bottom fs16 fw300">안테나 소속 가수 정승환과 함께한 프로젝트입니다.</div>
+                            <!--                            <div class="middle fs30 fw300">View More</div>-->
+                            <img alt="정승환 썸네일" src="./img/work_jsh/jsh_4.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_dominant.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600">엠넷닷컴 '클래식 도미넌트' 용재오닐 프로젝트</div>
+                            <div class="bottom fs16 fw300"><span class="font-montserrat">CJE&N, Mnet</span>닷컴과 함께한
+                                프로젝트입니다.
+                            </div>
+                            <!--                            <div class="middle fs30 fw300">View More</div>-->
+                            <img alt="클래식도미넌트 썸네일" src="./img/work_dominant/dominant_1.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_hini.html">
+                        <div class="screen">
+                            <div class="bg_gradiant"></div>
+                            <div class="top fs22 fw600">하이니 '비오는 날은 푸르다' 뮤직비디오</div>
+                            <div class="bottom fs16 fw300">가수 하이니와 함께한 프로젝트입니다.</div>
+                            <!--                            <div class="middle fs30 fw300">View More</div>-->
+                            <img alt="하이니 썸네일" src="./img/work_thumb_3.jpg">
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_eos.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600">해시터뷰 <span class="font-montserrat">EOS</span> 프로젝트</div>
+                            <div class="bottom fs16 fw300">지니뮤직과 함께한 프로젝트입니다.</div>
+                            <!--                            <div class="middle fs30 fw300">View More</div>-->
+                            <img alt="해시터뷰 썸네일" src="./img/work_eos/eos_1.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <!--                    <a class="work_thumb mt30" href="workdetail_corziver.html">-->
+                <!--                        <div class="screen">-->
+                <!--                            <div class="top fs22 fw600 font-montserrat">Corziver VR Project</div>-->
+                <!--                            <div class="bottom fs16 fw300"><span class="font-montserrat">Corziver</span>와 함께한 프로젝트입니다.-->
+                <!--                            </div>-->
+                <!--&lt;!&ndash;                            <div class="middle fs30 fw300">View More</div>&ndash;&gt;-->
+                <!--                            <img src="./img/work_coziver/coziver_1.jpg" alt="코지버 썸네일">-->
+                <!--                            <div class="bg_gradiant"></div>-->
+                <!--                        </div>-->
+                <!--                    </a>-->
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_lotte.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600">롯데카드 15주년 기념 프로젝트</div>
+                            <div class="bottom fs16 fw300">롯데카드와 함께한 프로젝트입니다.</div>
+                            <!--                            <div class="middle fs30 fw300">View More</div>-->
+                            <img alt="롯데카드 썸네일" src="./img/work_lotte/lotte_1.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_flac.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600">지니뮤직 <span class="font-montserrat">5G FLAC 24</span>비트 홍보 영상
+                            </div>
+                            <div class="bottom fs16 fw300"><span class="font-montserrat">KT</span> 지니뮤직과 함께한 프로젝트입니다.
+                            </div>
+                            <!--                            <div class="middle fs30 fw300">View More</div>-->
+                            <img alt="지니뮤직 썸네일" src="./img/work_flac/flac_2.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <!--                    <a class="work_thumb mt30" href="workdetail_cello.html">-->
+                <!--                        <div class="screen">-->
+                <!--                            <div class="top fs22 fw600 font-montserrat">Cello Project</div>-->
+                <!--                            <div class="bottom fs16 fw300"><span class="font-montserrat">Cello</span>와 함께한 프로젝트입니다.-->
+                <!--                            </div>-->
+                <!--&lt;!&ndash;                            <div class="middle fs30 fw300">View More</div>&ndash;&gt;-->
+                <!--                            <img src="./img/work_cello/cello_2.jpg" alt="코지버 썸네일">-->
+                <!--                            <div class="bg_gradiant"></div>-->
+                <!--                        </div>-->
+                <!--                    </a>-->
+
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_town.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600">게임 '타운스테일' 홍보 영상</div>
+                            <div class="bottom fs16 fw300">게임제작사 게임잡과 함께한 프로젝트입니다.</div>
+                            <!--                            <div class="middle fs30 fw300">View More</div>-->
+                            <img alt="타운스테일 썸네일" src="./img/work_thumb_4.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_view.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600"><span class="font-montserrat">THE VIEW Lounge</span>스케치 필름</div>
+                            <div class="bottom fs16 fw300">클럽 더 뷰 라운지, 아레나, 바운드와 함께한 프로젝트입니다.</div>
+                            <!--                            <div class="middle fs30 fw300">View More</div>-->
+                            <img alt="더뷰라운지 썸네일" src="./img/work_view/view_1.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="wow animate__fadeInUp">
+                    <a class="work_thumb mt30" href="workdetail_smc.html">
+                        <div class="screen">
+                            <div class="top fs22 fw600"><span class="font-montserrat">SMC Party</span> 스케치 필름</div>
+                            <div class="bottom fs16 fw300"><span class="font-montserrat">SMC</span>와 함께한 프로젝트입니다.</div>
+                            <!--                            <div class="middle fs30 fw300">View More</div>-->
+                            <img alt="smc 썸네일" src="./img/work_smc/smc_1.jpg">
+                            <div class="bg_gradiant"></div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="conbox_work con2">
+            <div class="work_list wow animate__fadeInLeft">
+
+                <a class="work_thumb mt30" href="workdetail_onf.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600 font-montserrat">VP CONCERT ONF</div>
+                        <div class="bottom fs16 fw300">지니뮤직, <span class="font-montserrat">ONF</span>와 함께한
+                            프로젝트입니다.
+                        </div>
+                        <img alt="온앤오프 썸네일" src="./img/work_thumb_23.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+
+                <a class="work_thumb mt30" href="workdetail_sf9.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600 font-montserrat">VP CONCERT SF9</div>
+                        <div class="bottom fs17 fw300">지니뮤직, SF9과 함께한 프로젝트입니다.</div>
+                        <img alt="에스에프나인 썸네일" src="./img/work_thumb_22.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+
+                <a class="work_thumb mt30" href="workdetail_mamamoo.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600 font-montserrat">VP CONCERT MAMAMOO</div>
+                        <div class="bottom fs17 fw300">지니뮤직, 마마무와 함께한 프로젝트입니다.</div>
+                        <img alt="마마무 썸네일" src="./img/work_thumb_21.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+                <a class="work_thumb mt30" href="workdetail_who.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600"><span class="font-montserrat">WHO</span> 단편 애니메이션</div>
+                        <div class="bottom fs16 fw300">부천 만화 영상 진흥원에서 진행한 프로젝트입니다.</div>
+                        <img alt="who 썸네일" src="./img/work_who/who_3.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+                <!--                        <a class="work_thumb mt30" href="workdetail_corziver.html">-->
+                <!--                            <div class="screen">-->
+                <!--                                <div class="top fs22 fw600 font-montserrat">Corziver VR Project</div>-->
+                <!--                                <div class="bottom fs16 fw300"><span class="font-montserrat">Corziver</span>와 함께한-->
+                <!--                                    프로젝트입니다.-->
+                <!--                                </div>-->
+                <!--                                &lt;!&ndash;                            <div class="middle fs30 fw300">View More</div>&ndash;&gt;-->
+                <!--                                <img alt="코지버 썸네일" src="./img/work_coziver/coziver_1.jpg">-->
+                <!--                                <div class="bg_gradiant"></div>-->
+                <!--                            </div>-->
+                <!--                        </a>-->
+
+
+            </div>
+
+        </div>
+
+
+        <div class="conbox_work con3">
+            <div class="work_list wow animate__fadeInLeft">
+
+                <a class="work_thumb mt30" href="workdetail_tn.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600">동서 '맑은티엔' 애니메이션 프로젝트</div>
+                        <div class="bottom fs16 fw300">동서식품과 함께한 프로젝트입니다.</div>
+                        <img alt="맑은티엔 썸네일" src="./img/work_thumb_2.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+
+                <a class="work_thumb mt30" href="workdetail_yanolja.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600">야놀자 광고 메이킹 필름</div>
+                        <div class="bottom fs16 fw300">야놀자와 배우 육성재 함께한 프로젝트입니다.</div>
+                        <!--                            <div class="middle fs30 fw300">View More</div>-->
+                        <img alt="야놀자 썸네일" src="./img/work_thumb_8.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+
+                <a class="work_thumb mt30" href="workdetail_sang.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600">상쾌환 광고 메이킹 필름</div>
+                        <div class="bottom fs16 fw300">상쾌환과 배와우 혜리와 함께한 프로젝트입니다.</div>
+                        <!--                            <div class="middle fs30 fw300">View More</div>-->
+                        <img alt="상쾌한 썸네일" src="./img/work_sang/sang_8.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+
+                <a class="work_thumb mt30" href="workdetail_mgigs.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600">엠넷닷컴 <span class="font-montserrat">'MIGIS'</span> 프로젝트</div>
+                        <div class="bottom fs16 fw300"><span class="font-montserrat">CJE&N, Mnet</span>닷컴과 함께한
+                            프로젝트입니다.
+                        </div>
+                        <!--                            <div class="middle fs30 fw300">View More</div>-->
+                        <img alt="엠넷migis 썸네일" src="./img/work_mgigs/mgigs_1.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+
+                <a class="work_thumb mt30" href="workdetail_jsh.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600">정승환 팬미팅 '나만 봄' 홍보 영상</div>
+                        <div class="bottom fs16 fw300">안테나 소속 가수 정승환과 함께한 프로젝트입니다.</div>
+                        <!--                            <div class="middle fs30 fw300">View More</div>-->
+                        <img alt="정승환 썸네일" src="./img/work_jsh/jsh_4.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+                <a class="work_thumb mt30" href="workdetail_dominant.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600">엠넷닷컴 '클래식 도미넌트' 용재오닐 프로젝트</div>
+                        <div class="bottom fs16 fw300"><span class="font-montserrat">CJE&N, Mnet</span>닷컴과 함께한
+                            프로젝트입니다.
+                        </div>
+                        <!--                            <div class="middle fs30 fw300">View More</div>-->
+                        <img alt="클래식도미넌트 썸네일" src="./img/work_dominant/dominant_1.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+
+                <a class="work_thumb mt30" href="workdetail_hini.html">
+                    <div class="screen">
+                        <div class="bg_gradiant"></div>
+                        <div class="top fs22 fw600">하이니 '비오는 날은 푸르다' 뮤직비디오</div>
+                        <div class="bottom fs16 fw300">가수 하이니와 함께한 프로젝트입니다.</div>
+                        <!--                            <div class="middle fs30 fw300">View More</div>-->
+                        <img alt="하이니 썸네일" src="./img/work_thumb_3.jpg">
+                    </div>
+                </a>
+
+
+                <a class="work_thumb mt30" href="workdetail_eos.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600">해시터뷰 <span class="font-montserrat">EOS</span> 프로젝트</div>
+                        <div class="bottom fs16 fw300">지니뮤직과 함께한 프로젝트입니다.</div>
+                        <!--                            <div class="middle fs30 fw300">View More</div>-->
+                        <img alt="해시터뷰 썸네일" src="./img/work_eos/eos_1.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+
+                <a class="work_thumb mt30" href="workdetail_lotte.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600">롯데카드 15주년 기념 프로젝트</div>
+                        <div class="bottom fs16 fw300">롯데카드와 함께한 프로젝트입니다.</div>
+                        <!--                            <div class="middle fs30 fw300">View More</div>-->
+                        <img alt="롯데카드 썸네일" src="./img/work_lotte/lotte_1.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+                <a class="work_thumb mt30" href="workdetail_flac.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600">지니뮤직 <span class="font-montserrat">5G FLAC 24</span>비트 홍보 영상
+                        </div>
+                        <div class="bottom fs16 fw300"><span class="font-montserrat">KT</span> 지니뮤직과 함께한
+                            프로젝트입니다.
+                        </div>
+                        <!--                            <div class="middle fs30 fw300">View More</div>-->
+                        <img alt="지니뮤직 썸네일" src="./img/work_flac/flac_2.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+                <!--                        <a class="work_thumb mt30" href="workdetail_cello.html">-->
+                <!--                            <div class="screen">-->
+                <!--                                <div class="top fs22 fw600 font-montserrat">Cello Project</div>-->
+                <!--                                <div class="bottom fs16 fw300"><span class="font-montserrat">Cello</span>와 함께한 프로젝트입니다.-->
+                <!--                                </div>-->
+                <!--                                &lt;!&ndash;                            <div class="middle fs30 fw300">View More</div>&ndash;&gt;-->
+                <!--                                <img alt="코지버 썸네일" src="./img/work_cello/cello_2.jpg">-->
+                <!--                                <div class="bg_gradiant"></div>-->
+                <!--                            </div>-->
+                <!--                        </a>-->
+
+
+                <a class="work_thumb mt30" href="workdetail_town.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600">게임 '타운스테일' 홍보 영상</div>
+                        <div class="bottom fs16 fw300">게임제작사 게임잡과 함께한 프로젝트입니다.</div>
+                        <!--                            <div class="middle fs30 fw300">View More</div>-->
+                        <img alt="타운스테일 썸네일" src="./img/work_thumb_4.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+
+                <a class="work_thumb mt30" href="workdetail_view.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600"><span class="font-montserrat">THE VIEW Lounge</span>스케치 필름
+                        </div>
+                        <div class="bottom fs16 fw300">클럽 더 뷰 라운지, 아레나, 바운드와 함께한 프로젝트입니다.</div>
+                        <!--                            <div class="middle fs30 fw300">View More</div>-->
+                        <img alt="더뷰라운지 썸네일" src="./img/work_view/view_1.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+                <a class="work_thumb mt30" href="workdetail_smc.html">
+                    <div class="screen">
+                        <div class="top fs22 fw600"><span class="font-montserrat">SMC Party</span> 스케치 필름</div>
+                        <div class="bottom fs16 fw300"><span class="font-montserrat">SMC</span>와 함께한 프로젝트입니다.
+                        </div>
+                        <!--                            <div class="middle fs30 fw300">View More</div>-->
+                        <img alt="smc 썸네일" src="./img/work_smc/smc_1.jpg">
+                        <div class="bg_gradiant"></div>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+</section>
+
+<div class="footer_line"></div>
+<footer class="footer_area">
+    <div class="mt40">
+        <div class="footer_1 ml20">
+            <div class="font-montserrat fc_white fs15 fw300">
+                <span class="fw500">THE 1991 STUDIO</span><br/>
+                CEO Yoo sung bo
+            </div>
+        </div>
+
+        <div class="footer_2">
+            <div class="font-montserrat fc_white fs15 fw300">
+                +82. 8817. 9398<br/>
+                the1991u@gmail.com
+            </div>
+        </div>
+
+        <div class="footer_3">
+            <div class="font-montserrat fc_white fs15 fw300">
+                306, 72, Jungdong-ro 262-gil, Bucheon-si<br/>
+                Gyeonggi-do, Republic of Korea
+            </div>
+        </div>
+
+        <div class="footer_right mr20">
+            <div class="font-montserrat fc_white fs14 fw300">
+                ©2021 THE1991. All Rights Reserved.
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
