@@ -407,6 +407,10 @@ a.u:hover {
     margin-top: 100px;
 }
 
+.mt110 {
+    margin-top: 110px;
+}
+
 .mt120 {
     margin-top: 120px;
 }
@@ -1365,8 +1369,8 @@ nav {
     width: 0px;
     height: 4.5px;
     margin: 5px 0 0;
-    transition: all 0.4s ease-in-out;
-    transition-duration: 0.4s;
+    transition: all 0.3s ease-in-out;
+    transition-duration: 0.3s;
     opacity: 0;
     background-color: white;
 }
@@ -1393,7 +1397,7 @@ nav {
 .arrow_new:hover {
     position: absolute;
     z-index: 1005;
-    left: 900px;
+    left: 880px;
     top: 300px;
     transition: all 0.5s ease-in-out;
 }
@@ -1434,6 +1438,8 @@ nav {
 .tab_content input[type="radio"] {
     display: none
 }
+
+
 .tab_content input[type="radio"] + label {
     display: inline-block;
     padding: 20px;
@@ -1445,10 +1451,11 @@ nav {
     font-weight: 700;
 }
 
+
 .tab_content input[type="radio"]:checked +label {
     background: #0c0c0c;
     color: #ffffff;
-    text-decoration: underline white;
+    text-decoration: none;
 }
 
 .tab_content input[id="about_tab01"]:checked ~ .con1 {
@@ -1640,9 +1647,14 @@ nav {
     color: #0c0c0c;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
-    font-size: 32px;
+    font-size: 60px;
     cursor: pointer;
     font-weight: 700;
+}
+
+.work_sec1 .tab_content input[type="radio"] + label:hover {
+    color: white;
+    transition: all 0.5s ease-in-out;
 }
 
 .work_sec1 .tab_content input[type="radio"]:checked + label {
@@ -1994,9 +2006,8 @@ a .screen:hover img{
     display: block;
     position: relative;
     width: 80%;
-    height: 120px;
+    height: 80px;
     margin: 0 auto;
-    background: #0c0c0c;
 }
 
 .footer_1 {
@@ -2004,8 +2015,8 @@ a .screen:hover img{
     position: relative;
     float: left;
     left: 0;
-    width: 190px;
-    height: 60px;
+    width: 160px;
+    height: 40px;
 }
 
 .footer_2 {
@@ -2013,8 +2024,8 @@ a .screen:hover img{
     position: relative;
     float: left;
     left: 0;
-    width: 210px;
-    height: 60px;
+    width: 180px;
+    height: 40px;
 }
 
 .footer_3 {
@@ -2022,8 +2033,8 @@ a .screen:hover img{
     position: relative;
     float: left;
     left: 0;
-    width: 300px;
-    height: 60px;
+    width: 260px;
+    height: 40px;
 }
 
 .footer_right {
@@ -2031,10 +2042,10 @@ a .screen:hover img{
     position: relative;
     float: right;
     right: 0;
-    width: 280px;
-    height: 60px;
+    width: 220px;
+    height: 40px;
     text-align: right;
-    opacity: .8
+    opacity: .7;
 }
 
 .footer_line {
