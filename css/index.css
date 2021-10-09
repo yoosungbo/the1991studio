@@ -897,6 +897,10 @@ a.u:hover {
     font-size: 150px !important
 }
 
+.lh62 {
+    line-height: 62px;
+}
+
 .lh150 {
     line-height: 150px;
 }
@@ -1053,7 +1057,6 @@ nav {
     position: fixed;
     top: 40px;
     z-index: 10001;
-    transition: all 0.3s;
 }
 
 .nav {
@@ -1061,7 +1064,6 @@ nav {
     position: absolute;
     top: 40px;
     z-index: 10001;
-    transition: all 0.3s;
 }
 
 
@@ -1092,10 +1094,17 @@ nav {
     margin-right: 50px;
 }
 
+
+.menutitle a {
+    color: white;
+    font-weight: 500;
+}
+
+
 .menutitle a:hover {
     color: #828282;
     font-weight: 500;
-    transition: all 0.3s;
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -1150,6 +1159,8 @@ nav {
 
 
 .sec_title {
+    height: fit-content;
+    width: fit-content;
     display: block;
     margin-left: 10%;
 }
@@ -1388,17 +1399,14 @@ nav {
     padding-left: 40px;
     position: absolute;
     z-index: 1005;
-    left: 820px;
-    top: 300px;
+    left: 770px;
+    top: 280px;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
 }
 
 .arrow_new:hover {
-    position: absolute;
-    z-index: 1005;
-    left: 880px;
-    top: 300px;
+    left: 820px;
     transition: all 0.5s ease-in-out;
 }
 
