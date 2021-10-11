@@ -897,8 +897,24 @@ a.u:hover {
     font-size: 150px !important
 }
 
-.lh62 {
-    line-height: 62px;
+
+/*line height*/
+
+.lh20 {
+    line-height: 20px;
+}
+
+.lh28 {
+    line-height: 28px;
+}
+
+.lh32 {
+    line-height: 32px;
+}
+
+
+.lh64 {
+    line-height: 64px;
 }
 
 .lh150 {
@@ -1335,6 +1351,7 @@ nav {
     display: block;
     left: 0;
     z-index: 1001;
+    overflow: hidden;
 }
 
 .about_img {
@@ -1426,7 +1443,7 @@ nav {
 .about_text_right {
     position: relative;
     display: inline-block;
-    margin-left: 180px;
+    margin-left: 165px;
 }
 
 
@@ -1655,7 +1672,7 @@ nav {
     color: #0c0c0c;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
-    font-size: 52px;
+    font-size: 35px;
     cursor: pointer;
     font-weight: 700;
 }
@@ -1719,7 +1736,8 @@ a .screen .top {
     bottom: 82px;
     z-index: 2;
     color: #ffffff;
-    transition: all .5s;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 a .screen .bottom {
@@ -1728,7 +1746,8 @@ a .screen .bottom {
     bottom: 52px;
     z-index: 2;
      color: #ffffff;
-     transition: all .5s;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 a .screen .middle {
@@ -1740,7 +1759,6 @@ a .screen .middle {
     border-radius: 50px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     color: #ffffff;
     display: none;
@@ -1750,7 +1768,8 @@ a .screen .middle {
 
 a .screen img {
     width: 100%;
-    transition: all .2s linear;}
+    transition: all .2s linear;
+}
 
 a .screen:hover img{
     transform: scale(1.08);
@@ -1761,17 +1780,14 @@ a .screen:hover img{
 
 .work_list a:hover .top {
     bottom: 82px;
-    transition: all .5s;
 }
 
 .work_list a:hover .bottom {
     bottom: 52px;
-    transition: all .5s;
 }
 
 .work_list a:hover .middle {
     display: block;
-    transition: all .5s;
 }
 
 
@@ -1786,7 +1802,6 @@ a .screen:hover img{
     background: rgba(0,0,0,.4);
     z-index: 1;
     opacity: 0;
-    transition: all .3s;
 }
 
 .work_list a:hover .screen::after {
@@ -2023,7 +2038,7 @@ a .screen:hover img{
     position: relative;
     float: left;
     left: 0;
-    width: 160px;
+    width: 145px;
     height: 40px;
 }
 
@@ -2032,7 +2047,7 @@ a .screen:hover img{
     position: relative;
     float: left;
     left: 0;
-    width: 180px;
+    width: 165px;
     height: 40px;
 }
 
@@ -2041,7 +2056,7 @@ a .screen:hover img{
     position: relative;
     float: left;
     left: 0;
-    width: 260px;
+    width: 245px;
     height: 40px;
 }
 
