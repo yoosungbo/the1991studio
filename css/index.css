@@ -904,12 +904,17 @@ a.u:hover {
     line-height: 20px;
 }
 
+.lh24 {
+    line-height: 24px;
+}
+
+
 .lh28 {
     line-height: 28px;
 }
 
-.lh32 {
-    line-height: 32px;
+.lh34 {
+    line-height: 34px;
 }
 
 
@@ -1443,9 +1448,8 @@ nav {
 .about_text_right {
     position: relative;
     display: inline-block;
-    margin-left: 165px;
+    margin-left: 120px;
 }
-
 
 
 .about_sec4 {
