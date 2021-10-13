@@ -591,6 +591,11 @@ a.u:hover {
     margin-bottom: 250px
 }
 
+.mb270 {
+    margin-bottom: 270px
+}
+
+
 /* padding */
 .pd_df {
     padding: 60px 0 100px
@@ -909,8 +914,8 @@ a.u:hover {
 }
 
 
-.lh28 {
-    line-height: 28px;
+.lh26 {
+    line-height: 26px;
 }
 
 .lh34 {
