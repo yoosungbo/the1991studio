@@ -369,6 +369,10 @@ a.u:hover {
     margin-top: 10px
 }
 
+.mt15 {
+    margin-top: 15px
+}
+
 .mt20 {
     margin-top: 20px
 }
@@ -486,7 +490,6 @@ a.u:hover {
 }
 
 
-
 .ml0 {
     margin-left: 0 !important
 }
@@ -494,6 +497,11 @@ a.u:hover {
 .ml5 {
     margin-left: 5px
 }
+
+.ml7 {
+    margin-left: 7px !important
+}
+
 
 .ml10 {
     margin-left: 10px
@@ -904,6 +912,11 @@ a.u:hover {
 
 
 /*line height*/
+
+.lh14 {
+    line-height: 14px;
+!important;
+}
 
 .lh20 {
     line-height: 20px;
