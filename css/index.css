@@ -407,6 +407,10 @@ a.u:hover {
     margin-top: 80px;
 }
 
+.mt90 {
+    margin-top: 90px;
+}
+
 .mt100 {
     margin-top: 100px;
 }
@@ -429,6 +433,10 @@ a.u:hover {
 
 .mt200 {
     margin-top: 200px;
+}
+
+.mt220 {
+    margin-top: 220px;
 }
 
 .mt250 {
@@ -1691,9 +1699,7 @@ nav {
     padding: 20px 20px 0px 20px;
     margin-right: 30px;
     background: transparent;
-    color: #0c0c0c;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    color: #828282;
     font-size: 35px;
     cursor: pointer;
     font-weight: 700;
@@ -1701,14 +1707,14 @@ nav {
 
 .work_sec1 .tab_content input[type="radio"] + label:hover {
     color: white;
+    text-decoration: underline;
     transition: all 0.4s ease-in-out;
 }
 
 .work_sec1 .tab_content input[type="radio"]:checked + label {
     background: transparent;
     color: #ffffff;
-    text-decoration: none;
-    -webkit-text-stroke-width: 0px;
+    text-decoration: underline;
 }
 
 
