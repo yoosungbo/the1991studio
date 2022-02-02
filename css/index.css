@@ -1175,7 +1175,6 @@ nav {
 
 
 /* main css 영역 */
-
 #topButton {position: fixed; right: 3%; bottom: 50px; display: none; z-index: 999;}
 
 
@@ -1389,6 +1388,7 @@ nav {
     text-align: left;
 }
 
+
 /* about css */
 .about_sec1 {
     position: relative;
@@ -1404,6 +1404,18 @@ nav {
     left: 0;
     z-index: 1001;
     overflow: hidden;
+}
+
+.about_text_1 {
+    font-size: 14pt;
+    font-weight: 100;
+    line-height: 26px;
+}
+
+.about_text_2 {
+    font-size: 45pt;
+    font-weight: 400;
+    line-height: 64px;
 }
 
 .about_img {
@@ -1460,8 +1472,8 @@ nav {
     opacity: 1;
 }
 
-/*왼쪽에서 오른쪽으로 이동하는 에니메이션:끝*/
 
+/*왼쪽에서 오른쪽으로 이동하는 에니메이션:끝*/
 .arrow_new {
     height: 100px;
     width: 320px;
@@ -1479,7 +1491,7 @@ nav {
     transition: all 0.5s ease-in-out;
 }
 
-.about_sec3 {
+.contact_sec {
     position: relative;
     display: block;
     height: 550px;
@@ -1487,15 +1499,29 @@ nav {
     margin-right: auto;
 }
 
-.about_text_left {
-    position: relative;
-    display: inline-block;
+.contact_text {
+    position: absolute;
+    display: block;
+    left: 0;
+    z-index: 1001;
+    overflow: hidden;
 }
 
-.about_text_right {
+.contact_text_left {
+    position: relative;
+    display: inline-block;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 34pt;
+}
+
+.contact_text_right {
     position: relative;
     display: inline-block;
     margin-left: 120px;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 34pt;
 }
 
 
@@ -1932,6 +1958,12 @@ a .screen:hover img{
 
 
 /* work detail css */
+.video_area {
+    display: block;
+    width: 960px;
+    height: 540px;
+}
+
 .thumbnail_sec {
     position: relative;
     display: block;
@@ -2087,6 +2119,7 @@ a .screen:hover img{
     position: relative;
     float: left;
     left: 0;
+    margin-left: 20px;
     width: 145px;
     height: 40px;
 }
@@ -2113,6 +2146,7 @@ a .screen:hover img{
     display: inline-block;
     position: relative;
     float: right;
+    margin-right: 20px;
     right: 0;
     width: 220px;
     height: 40px;
@@ -2187,11 +2221,11 @@ a .screen:hover img{
 .section [id="slide03"]:checked ~ .slidewrap .slidelist > li {transform: translateX(200%);}
 
 
-/* media 쿼리 */
-@media (max-width: 480px) {
+/* media-m 쿼리 */
+@media (max-width: 550px) {
 
 
-    /* nav 영역 */
+    /* nav-m 영역 */
     nav {
         display: inline-block;
         position: fixed;
@@ -2247,19 +2281,7 @@ a .screen:hover img{
     }
 
 
-    /* main css 영역 */
-    #topButton {
-        position: fixed;
-        right: 3%;
-        bottom: 50px;
-        display: none;
-        z-index: 999;
-    }
-
-
-    #fp-nav ul li a span {
-        background-color: white;
-    }
+    /* main-m css 영역 */
 
     .pc_video {
         display: none;
@@ -2296,7 +2318,7 @@ a .screen:hover img{
     }
 
 
-    /* footer css */
+    /* footer-m css */
     .main_footer {
         position: fixed;
         display: block;
@@ -2318,7 +2340,7 @@ a .screen:hover img{
     .footer_area {
         display: block;
         position: relative;
-        width: 80%;
+        width: 95%;
         height: 80px;
         margin: 0 auto;
     }
@@ -2333,7 +2355,7 @@ a .screen:hover img{
     }
 
     .footer_2 {
-        display: block;
+        display: none;
         position: relative;
         float: left;
         left: 0;
@@ -2342,7 +2364,7 @@ a .screen:hover img{
     }
 
     .footer_3 {
-        display: block;
+        display: none;
         position: relative;
         float: left;
         left: 0;
@@ -2359,6 +2381,7 @@ a .screen:hover img{
         height: 40px;
         text-align: right;
         opacity: .7;
+        margin-top: 30px;
     }
 
     .footer_line {
@@ -2373,5 +2396,290 @@ a .screen:hover img{
         transition: all 0.3s;
     }
 
+
+    /* about-m css */
+    .about_sec1 {
+        position: relative;
+        display: block;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+
+    .about_text {
+        position: absolute;
+        display: block;
+        left: 0;
+        z-index: 1001;
+        overflow: hidden;
+        width: 300px;
+    }
+
+    .about_text img {
+        height: 40px;
+    }
+
+    .about_text_1 {
+        font-size: 8pt;
+        font-weight: 100;
+        line-height: 18px;
+    }
+
+    .about_text_2 {
+        font-size: 15pt;
+        font-weight: 400;
+        line-height: 34px;
+    }
+
+    .arrow_new {
+        display: none;
+    }
+
+
+    .about_sec2 {
+        position: relative;
+        display: block;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+
+    .hover_line:hover {
+        text-decoration: underline white;
+        transition: all 1s;
+    }
+
+    /*왼쪽에서 오른쪽으로 이동하는 에니메이션*/
+    .to-right-underline {
+        position: relative;
+    }
+
+    .to-right-underline:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        width: 0px;
+        height: 4.5px;
+        margin: 5px 0 0;
+        transition: all 0.3s ease-in-out;
+        transition-duration: 0.3s;
+        opacity: 0;
+        background-color: white;
+    }
+
+    .to-right-underline:hover:after {
+        width: 100%;
+        opacity: 1;
+    }
+
+
+    /*왼쪽에서 오른쪽으로 이동하는 에니메이션:끝*/
+    .arrow_new {
+        height: 100px;
+        width: 320px;
+        padding-left: 40px;
+        position: absolute;
+        z-index: 1005;
+        left: 770px;
+        top: 280px;
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .arrow_new:hover {
+        left: 820px;
+        transition: all 0.5s ease-in-out;
+    }
+
+
+    /* work-m css */
+    .work_sec1 .tab_content input[type="radio"] + label {
+        display: inline-block;
+        padding: 20px;
+        margin-top: 10px;
+        margin-right: 0px;
+        background: transparent;
+        color: #828282;
+        font-size: 30px;
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+
+    a .screen {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: fit-content;
+    }
+
+    a .screen .top {
+        position: absolute;
+        left: 20px;
+        bottom: 45px;
+        z-index: 2;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    a .screen .bottom {
+        position: absolute;
+        left: 20px;
+        bottom: 25px;
+        z-index: 2;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    a .screen .middle {
+        position: absolute;
+        width: 260px;
+        height: fit-content;
+        padding: 5px;
+        border: white 1px solid;
+        border-radius: 50px;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        color: #ffffff;
+        display: none;
+        z-index: 3;
+    }
+
+    /* work-detail_m css */
+    .thumbnail_sec {
+        position: relative;
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        margin-top: 120px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .thumbnail_sec img {
+        width: 100%;
+    }
+
+    .video_area {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .thumbnail_sec2 {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .thumbnail_sec2 img {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .title_text {
+        display: block;
+        top: 0;
+        width: fit-content;
+        height: fit-content;
+        color: #ffffff;
+        font-size: 10pt;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .content_text {
+        display: block;
+        top: 0;
+        width: fit-content;
+        padding-right: 20px;
+        padding-left: 20px;
+        height: fit-content;
+        color: #ffffff;
+        font-size: 5pt;
+        line-height: 15pt;
+    }
+
+
+    .title_text2 {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        color: #ffffff;
+        font-size: 13pt;
+        font-weight: 600;
+    }
+
+    .back_btn {
+        position: absolute;
+        width: 120px;
+        height: 40px;
+        line-height: 33px;
+        border: solid 1px white;
+        background-color: #0c0c0c;
+        text-align: center;
+        right: 0;
+        color: white;
+    }
+
+    .back_btn:hover {
+        background: #ffffff;
+        color: #0c0c0c;
+        transition: all 0.5s;
+    }
+
+
+    /* contact_m css */
+    .contact_sec {
+        position: relative;
+        display: block;
+        height: 420px;
+        margin-top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact_text {
+        position: absolute;
+        display: block;
+        left: 0;
+        z-index: 1001;
+        overflow: hidden;
+    }
+
+    .contact_text img {
+        height: 50px;
+    }
+
+
+    .contact_text_left {
+        position: relative;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 26px;
+    }
+
+    .contact_text_right {
+        position: relative;
+        display: inline-block;
+        margin-left: 5px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 26px;
+    }
 
 }
