@@ -1962,6 +1962,7 @@ a .screen:hover img{
     display: block;
     width: 960px;
     height: 540px;
+    overflow: hidden;
 }
 
 .thumbnail_sec {
