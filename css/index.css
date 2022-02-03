@@ -2580,7 +2580,7 @@ a .screen:hover img{
         position: relative;
         display: block;
         width: 100%;
-        height: fit-content;
+        height: 100%;
         margin-left: auto;
         margin-right: auto;
     }
